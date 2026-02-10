@@ -1,0 +1,81 @@
+# Audio files
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.aac
+*.m4a
+
+# Model files
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.bin
+*.safetensors
+*.h5
+*.hdf5
+
+# Checkpoints
+checkpoints/
+*.ckpt
+*.pt
+logs/
+
+# Dataset directories
+raw/
+wavs/
+dsf-wavs/
+vr_wavs/
+
+# Montreal Forced Aligner models
+*.zip
+*.tar.gz
+*.tgz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+tensorboard/
+
+# Temporary files
+*.tmp
+*.temp
