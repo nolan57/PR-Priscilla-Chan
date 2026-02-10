@@ -1,0 +1,188 @@
+# === 基础配置 ===
+base_config:
+  - ./acoustic.yaml  # 继承官方 acoustic base（确保默认值安全）
+
+task_cls: training.acoustic_task.AcousticTask
+
+# === 数据路径 ===
+raw_data_dir: data
+binary_data_dir: data/opencpop/binary  # ← 修正：与 variance 模型一致
+dataset_cls: DiffSingerDataset
+dataset_params:
+  data_dir: data
+  vocab_path: data/singer_vocab.txt
+
+# === 字典与语言 ===
+dictionaries:
+  cantonese: data/binary/cv19_val_lexicon_v3.txt
+
+# === 说话人与语言设置 ===
+use_lang_id: false
+num_lang: 1
+use_spk_id: false
+num_spk: 1
+
+# === 数据集定义 ===
+datasets:
+- spk_id: 0
+  raw_data_dir: data
+  speaker: Priscilla Chan
+  language: cantonese
+  test_prefixes:
+  - 1989/1989-01
+  - 1989/1989-02
+
+# === Binarizer ===
+binarizer_cls: preprocessing.acoustic_binarizer.AcousticBinarizer
+binarization_args:
+  shuffle: true
+  num_workers: 12
+  prefer_ds: true
+
+# === 音频参数（与 vocoder 严格对齐）===
+audio_sample_rate: 44100
+hop_size: 512
+fft_size: 2048
+win_size: 2048
+fmin: 40
+fmax: 16000                # ← 与 vocoder 保持一致
+n_mel_channels: 128
+audio_num_mel_bins: 128
+
+# === 特征嵌入（与 variance 模型一致）===
+use_energy_embed: false
+use_breathiness_embed: true
+use_voicing_embed: true
+use_tension_embed: true
+use_key_shift_embed: false
+use_speed_embed: false
+use_glide_embed: false
+
+# === 模型类与结构（关键！显式定义）===
+model_cls: DiffSinger
+model_params:
+  phone_encoder:
+    vocab_size: 41
+    hidden_size: 384        # ← 必须与 variance 模型一致
+    num_layers: 6           # ← 与 variance 模型 phone_encoder.num_layers 一致
+  dur_predictor: null       # 声学模型不需要 duration predictor
+  acoustic_model:
+    hidden_size: 384
+    diffusion_steps: 1000
+    schedule_type: cosine   # ← 推荐用于 Reflow
+    denoiser_type: unet
+    use_spk_embed: false
+
+# === 全局模型参数（与 model_params 对齐）===
+hidden_size: 384            # ← 全局统一
+enc_ffn_kernel_size: 3
+use_rope: true
+rel_pos: true
+
+# === 扩散设置 ===
+diffusion_type: reflow
+use_shallow_diffusion: true
+T_start: 0.4
+T_start_infer: 0.4
+K_step: 400
+K_step_infer: 400
+
+# === 主干网络（LynxNet）===
+backbone_type: 'lynxnet'
+backbone_args:
+  num_channels: 1024
+  num_layers: 6
+  kernel_size: 31
+  dropout_rate: 0.0
+  strong_cond: true
+
+# === 浅层扩散辅助解码器 ===
+shallow_diffusion_args:
+  train_aux_decoder: true
+  train_diffusion: true
+  val_gt_start: false
+  aux_decoder_arch: convnext
+  aux_decoder_args:
+    num_channels: 512
+    num_layers: 6
+    kernel_size: 7
+    dropout_rate: 0.1
+  aux_decoder_grad: 0.1
+
+# === Loss 设置 ===
+lambda_aux_mel_loss: 0.2
+main_loss_type: l2
+main_loss_log_norm: false   # 在 mel 域计算 L2，合理
+spec_min: [-12]
+spec_max: [0]
+mel_vmin: -12.0
+mel_vmax: 0.0
+mel_base: 'e'
+mel_log_offset: 1e-6
+
+# === 平滑宽度（与 variance 模型一致）===
+energy_smooth_width: 0.12
+breathiness_smooth_width: 0.12
+voicing_smooth_width: 0.12
+tension_smooth_width: 0.12
+
+# === 扩散调度（全局）===
+time_scale_factor: 1000
+timesteps: 1000
+schedule_type: linear        # ← 与基础配置保持一致
+max_beta: 0.02               # linear schedule 需要 max_beta
+
+# === 采样与加速 ===
+sampling_algorithm: euler
+sampling_steps: 20
+diff_accelerator: ddim
+diff_speedup: 10
+
+# === 训练超参 ===
+num_sanity_val_steps: 2
+optimizer_args:
+  lr: 0.0006
+lr_scheduler_args:
+  step_size: 200000
+  gamma: 0.5
+
+# === 批次控制 ===
+max_batch_frames: 60000
+max_batch_size: 64
+dataset_size_key: lengths
+val_check_interval: 2000
+num_valid_plots: 10
+
+# === 训练步数与 checkpoint ===
+max_updates: 160000
+num_ckpt_keep: 5
+permanent_ckpt_start: 80000
+permanent_ckpt_interval: 20000
+save_ckpt_interval: 5000     # 可选：更频繁保存便于调试
+
+# === Vocoder（用于验证/推理）===
+vocoder: NsfHifiGAN
+vocoder_ckpt: checkpoints/vocoder/model.ckpt
+val_with_vocoder: true      # 训练时通常关闭，节省时间
+
+# === 数据增强（关闭，适合干净单说话人）===
+augmentation_args:
+  random_pitch_shifting:
+    enabled: false
+  fixed_pitch_shifting:
+    enabled: false
+  random_time_stretching:
+    enabled: false
+
+# === 微调与冻结 ===
+finetune_enabled: false
+finetune_ckpt_path: null
+finetune_ignored_params: []
+finetune_strict_shapes: true
+
+freezing_enabled: false
+frozen_params: []
+
+# === 其他 ===
+hnsep: null
+use_tone: false

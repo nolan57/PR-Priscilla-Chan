@@ -1,0 +1,180 @@
+#file:/Users/lpcw/Documents/PCS/SingingVocoders/configs/base_hifi_rtx5090_optimized.yaml
+# Optimized configuration for RTX 5090 (32GB VRAM, 92GB system memory)
+# Designed for maximum training speed while maintaining quality
+
+base_config:
+  - configs/base.yaml
+
+# Data paths - adjust these for your dataset
+data_input_path: ['dataset/slices']
+data_out_path: ['dataset/processed']
+val_num: 2
+
+# Audio processing parameters
+pe: 'parselmouth' # 'parselmouth' or 'harvest'
+f0_min: 65
+f0_max: 1100
+
+# PC-NSF augmentation (keep enabled for better results)
+pc_aug: true
+pc_aug_rate: 0.5
+pc_aug_key: 5
+
+# Data augmentation
+aug_min: 0.9
+aug_max: 1.4
+aug_num: 1
+key_aug: true
+key_aug_prob: 0.5
+
+# Loss configuration
+use_stftloss: true
+loss_fft_sizes: [2048, 2048, 4096, 1024, 512, 256, 128,1024, 2048, 512]
+loss_hop_sizes: [512, 240, 480, 100, 50, 25, 12,120, 240, 50]
+loss_win_lengths: [2048, 1200, 2400, 480, 240, 120, 60,600, 1200, 240]
+lab_aux_melloss: 45
+lab_aux_stftloss: 2.5
+
+# Dataset configuration
+raw_data_dir: []
+binary_data_dir: null
+binarization_args:
+  num_workers: 16  # Increased for faster preprocessing
+  shuffle: true
+
+DataIndexPath: data
+valid_set_name: valid
+train_set_name: train
+
+# Volume augmentation
+volume_aug: true
+volume_aug_prob: 0.5
+
+# Mel-spectrogram parameters
+mel_vmin: -6.
+mel_vmax: 1.5
+audio_sample_rate: 44100
+audio_num_mel_bins: 128
+hop_size: 512
+fft_size: 2048
+win_size: 2048
+fmin: 40
+fmax: 16000
+fmax_for_loss: null
+
+# CRITICAL OPTIMIZATION: Increased crop size to utilize more VRAM
+crop_mel_frames: 80  # Increased from 32 to 80 for RTX 5090
+
+# Neural network architecture (optimized for RTX 5090)
+model_args:
+  mini_nsf: true
+  noise_sigma: 0.0
+  upsample_rates: [ 8, 8, 2, 2, 2 ]
+  upsample_kernel_sizes: [ 16, 16, 4, 4, 4 ]
+  # Increased channels to utilize 32GB VRAM effectively
+  upsample_initial_channel: 1024  # Increased from 512
+  resblock_kernel_sizes: [ 3, 7, 11 ]
+  resblock_dilation_sizes: [ [ 1, 3, 5 ], [ 1, 3, 5 ], [ 1, 3, 5 ] ]
+  # Reduced discriminator periods for faster computation
+  discriminator_periods: [ 2, 3, 5, 7, 11, 17, 23 ]
+  resblock: "1"
+  # Fast MPD configuration for improved training speed
+  fast_mpd_strides: [4, 4, 4]
+  fast_mpd_kernel_size: 11
+
+# Training task
+task_cls: training.nsf_HiFigan_fast_task.nsf_HiFigan
+
+# OPTIMIZED: Using Muon optimizer for faster convergence
+discriminate_optimizer_args:
+  optimizer_cls: modules.optimizer.muon.Muon_AdamW
+  lr: 0.0003  # Slightly higher learning rate
+  muon_args:
+    weight_decay: 0.1
+  adamw_args:
+    weight_decay: 0.0
+  verbose: false
+
+generater_optimizer_args:
+  optimizer_cls: modules.optimizer.muon.Muon_AdamW
+  lr: 0.0003  # Slightly higher learning rate
+  muon_args:
+    weight_decay: 0.03
+  adamw_args:
+    weight_decay: 0.0
+  verbose: false
+
+# Learning rate scheduler
+lr_scheduler_args:
+  scheduler_cls: lr_scheduler.scheduler.WarmupLR
+  warmup_steps: 5000
+  min_lr: 0.00001
+
+# Training optimizations for RTX 5090
+clip_grad_norm: 1.0  # Gradient clipping for stability
+accumulate_grad_batches: 1  # No accumulation needed with larger batch size
+sampler_frame_count_grid: 8
+
+# DataLoader optimizations
+ds_workers: 12  # Increased workers for faster data loading
+dataloader_prefetch_factor: 4
+
+# CRITICAL OPTIMIZATION: Larger batch size for RTX 5090 32GB VRAM
+batch_size: 32  # Increased from 10 to 32
+
+# Validation and logging
+num_valid_plots: 32  # Reduced for faster validation
+log_interval: 100  # Log every 100 steps
+num_sanity_val_steps: 2  # Validation steps at beginning
+val_check_interval: 1000  # Validate every 1000 steps
+
+# Checkpoint management
+num_ckpt_keep: 5
+max_updates: 300000  # Increased training steps
+permanent_ckpt_start: 100000
+permanent_ckpt_interval: 50000
+
+###########
+# PyTorch Lightning optimizations for RTX 5090
+###########
+pl_trainer_accelerator: 'gpu'
+pl_trainer_devices: 1  # Single GPU training
+pl_trainer_precision: '16-mixed'  # Mixed precision for faster training
+pl_trainer_num_nodes: 1
+pl_trainer_strategy: 
+  name: ddp  # Distributed Data Parallel
+  process_group_backend: nccl
+  find_unused_parameters: false  # Set to false for better performance
+nccl_p2p: true
+seed: 114514
+
+###########
+# Fine-tuning options for singer reproduction
+# Preserve core timbre and pitch generation while adapting style
+###########
+finetune_enabled: true
+finetune_ckpt_path: "path/to/pretrained/singer/model.ckpt"
+# Freeze parameters responsible for core timbre and fundamental vocal characteristics
+finetune_ignored_params: [
+  # Preserve pitch generation and fundamental frequency handling
+  "generator.m_source",           # Core NSF pitch source module
+  "generator.l_sin_gen",          # Sine wave generator for pitch
+  "generator.l_linear",           # Linear layer for harmonic merging
+  "generator.l_tanh",             # Tanh activation for source shaping
+  
+  # Preserve early upsampling layers that establish core timbre
+  "generator.conv_pre",           # Initial convolution that processes mel input
+  "generator.ups.0",              # First upsampling layer (critical for timbre)
+  "generator.ups.1",              # Second upsampling layer (important for base characteristics)
+  "generator.resblocks.0",        # First residual blocks (core harmonic processing)
+  "generator.resblocks.1",        # Second residual blocks (fundamental tone shaping)
+  "generator.resblocks.2",        # Third residual blocks (basic timbre formation)
+  
+  # Preserve noise injection mechanisms that contribute to vocal texture
+  "generator.noise_convs",        # Noise convolution layers for vocal breathiness
+  "generator.source_conv"         # Source convolution for harmonic injection
+]
+finetune_strict_shapes: true
+
+freezing_enabled: false
+frozen_params: []

@@ -1,0 +1,199 @@
+# === 基础设置 ===
+base_config:
+  - ./variance.yaml
+
+task_cls: DiffSingerTask
+audio_sample_rate: 44100
+hop_size: 512
+fft_size: 2048
+win_size: 2048
+fmin: 40
+fmax: 16000
+n_mel_channels: 128
+audio_num_mel_bins: 128
+
+# === 扩散设置 ===
+diffusion_type: reflow
+use_shallow_diffusion: false  # 方差模型不使用浅层扩散
+T_start: 0.0  # 方差模型不使用浅层扩散
+T_start_infer: 0.0  # 方差模型不使用浅层扩散
+K_step: 1000  # 默认值
+K_step_infer: 1000  # 默认值
+
+# === 音高预测主干网络 ===
+pitch_prediction_args:
+  pitd_norm_min: -8.0
+  pitd_norm_max: 8.0
+  pitd_clip_min: -12.0
+  pitd_clip_max: 12.0
+  repeat_bins: 64
+  backbone_type: wavenet
+  backbone_args:
+    num_layers: 12            # pitch predictor 自己的层数
+    num_channels: 384         # 与 hidden_size 一致
+    dilation_cycle_length: 5
+
+# Variance 模型不需要浅层扩散相关配置
+
+# === Variance 特征预测开关 ===
+predict_dur: true
+predict_pitch: true
+predict_energy: false
+predict_breathiness: true
+predict_voicing: true
+predict_tension: true
+
+# === 数据与字典 ===
+raw_data_dir: data
+dataset_cls: DiffSingerDataset
+dataset_params:
+  data_dir: data
+  vocab_path: data/singer_vocab.txt
+binary_data_dir: data/binary
+binarizer_cls: preprocessing.variance_binarizer.VarianceBinarizer
+dictionaries:
+  cantonese: data/binary/cv19_val_lexicon_v3.txt
+
+datasets:
+- spk_id: 0
+  raw_data_dir: data
+  speaker: Priscilla Chan
+  language: cantonese
+  test_prefixes:
+  - "1989/1989-01"
+  - "1989/1989-02"
+
+# === 模型类 ===
+model_cls: DiffSinger
+model_params:
+  phone_encoder:
+    vocab_size: 41
+    hidden_size: 384          # ← 统一 hidden_size，避免维度错乱
+    num_layers: 6             # ← FS2 Text Encoder 层数（关键！）
+  dur_predictor:
+    hidden_size: 384
+    kernel_size: 3
+    dropout: 0.1
+  acoustic_model: null        # variance 任务中不使用
+
+# === 训练控制 ===
+lr: 0.0006
+batch_size: 64
+num_workers: 12
+max_epochs: 100
+save_ckpt_interval: 500
+val_check_interval: 800
+
+# === Binarization ===
+binarization_args:
+  shuffle: true
+  num_workers: 7
+  prefer_ds: true
+
+# === 多语言/多说话人 ===
+use_lang_id: false
+num_lang: 1
+use_spk_id: false
+num_spk: 1
+
+# === 模型结构统一参数 ===
+hidden_size: 384              # ← 全局 hidden_size，与 phone_encoder 一致
+enc_ffn_kernel_size: 3
+use_rope: true
+rel_pos: true
+
+# === Duration 预测器 ===
+dur_prediction_args:
+  arch: fs2
+  hidden_size: 384           # ← 与全局 hidden_size 一致
+  dropout: 0.1
+  num_layers: 4              # 可独立设置，不影响 encoder
+  kernel_size: 3
+  log_offset: 1.0
+  loss_type: mse
+  lambda_pdur_loss: 0.3
+  lambda_wdur_loss: 1.0
+  lambda_sdur_loss: 3.0
+
+# === 是否使用旋律编码器（通常关闭）===
+use_melody_encoder: false
+melody_encoder_args:
+  hidden_size: 192
+  enc_layers: 4
+
+# === 其他 Variance 平滑参数 ===
+energy_db_min: -96.0
+energy_db_max: -12.0
+energy_smooth_width: 0.12
+
+breathiness_db_min: -96.0
+breathiness_db_max: -20.0
+breathiness_smooth_width: 0.12
+
+voicing_db_min: -96.0
+voicing_db_max: -12.0
+voicing_smooth_width: 0.12
+
+tension_logit_min: -10.0
+tension_logit_max: 10.0
+tension_smooth_width: 0.12
+
+# === Variance 联合预测器（可选，若未单独实现 pitch 等）===
+# 注意：如果启用了单独的 pitch/energy 预测器，此部分可能不生效
+variances_prediction_args:
+  total_repeat_bins: 48
+  backbone_type: wavenet
+  backbone_args:
+    num_layers: 12
+    num_channels: 384
+    dilation_cycle_length: 4
+
+# === Loss 权重 ===
+lambda_dur_loss: 1.0
+lambda_pitch_loss: 1.0
+lambda_var_loss: 1.0
+
+# === 其他 ===
+time_scale_factor: 1000
+schedule_type: linear
+timesteps: 1000
+max_beta: 0.02
+main_loss_type: l2
+main_loss_log_norm: true
+sampling_algorithm: euler
+sampling_steps: 20
+diff_accelerator: ddim
+diff_speedup: 10
+num_sanity_val_steps: 2
+
+optimizer_args:
+  lr: 0.0006
+lr_scheduler_args:
+  step_size: 10000
+  gamma: 0.75
+
+max_batch_frames: 80000
+max_batch_size: 48
+dataset_size_key: lengths
+num_valid_plots: 10
+max_updates: 100000
+num_ckpt_keep: 10
+permanent_ckpt_start: 50000
+permanent_ckpt_interval: 10000
+
+finetune_enabled: false
+freezing_enabled: false
+
+phonee_set: datasets/phonee_set.json
+use_tone: false
+
+# === Vocoder（推理用，训练可忽略）===
+vocoder: NsfHifiGAN
+vocoder_ckpt: checkpoints/vocoder/model.ckpt
+spec_min: [-12]
+spec_max: [0]
+mel_vmin: -12.0
+mel_vmax: 0.0
+mel_log_offset: 1e-6
+
+hnsep: null

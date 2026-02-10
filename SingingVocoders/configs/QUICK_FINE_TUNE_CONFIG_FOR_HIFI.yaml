@@ -1,0 +1,30 @@
+# Quick Configuration for Singer Voice Reproduction
+# Copy these settings to your main config file
+
+finetune_enabled: true
+finetune_ckpt_path: "your_pretrained_singer_model.ckpt"
+
+# Critical: Preserve singer's core vocal identity
+finetune_ignored_params: [
+  # Pitch and fundamental frequency generation
+  "generator.m_source",
+  "generator.l_sin_gen", 
+  "generator.l_linear",
+  "generator.l_tanh",
+  
+  # Core timbre establishment
+  "generator.conv_pre",
+  "generator.ups.0",
+  "generator.ups.1",
+  
+  # Fundamental harmonic processing
+  "generator.resblocks.0",
+  "generator.resblocks.1", 
+  "generator.resblocks.2",
+  
+  # Vocal texture preservation
+  "generator.noise_convs",
+  "generator.source_conv"
+]
+
+finetune_strict_shapes: true

@@ -1,0 +1,5220 @@
+sil sil
+<unk> spn
+<oov> spn
+<cutoff> spn
+<unk> spn
+[bracketed] spn
+[laughter] spn
+a a:
+ai a:i
+air ɛ:
+annual a: nn ʊ ŋ
+anson a: n s ɔ: n
+app ˈɛ: p
+av a:a:
+b b i:
+band p ɛ: n
+bb p i: p i:
+beat p i: t
+browser pʰ r ɔ: w s ɐ
+c s i:
+camp kʰ ɛ: m
+captcha kʰ ɛ: p tʰ ɛ:
+carrie kʰ ɛ:
+case kʰ ei s i:
+casting k a: s tʰ ɪ ŋ
+cheap tsʰ i: p
+check tsʰ ɛ: k
+chok kʰ ɔ: k
+chrome kʰ r ou
+club kʰ ɐ p
+common kʰ ɔ: m ɔ: n
+corolla kʰ ɔ: r ou l a:
+corona kʰ ɔ: r ou n a:
+credit kʰ ɛ: tʰ ɛ:
+cut kʰ ɐ t
+d d i:
+deep d i: p
+department d ˌe p a: t m ɛ: n
+designer d ɪ s a: n
+disco t ɪ s k ou
+discourse d ɪ s k ʊ ʁ s
+dj d i: j i:
+do j i:
+dodo d ou d ou
+dum d ɐ m
+e ei
+edan ɛ: t a: n
+email j i: m ɛ:
+fan f ɛ: n
+fans f ɛ: n s i:
+feel f i:u
+final f ɪ n a: l
+firefox f a:i r e f ɔ: k s i:
+friend f ɛ: n
+future f u: t j y:
+gag k ɛ: k
+game kʰ ɛ:
+github kʰ ɛ: t h ʊ p
+go k ɔ:
+google ɡ u: l i:
+hall h ou
+happy h ɛ: pp i:
+hea h ɛ:
+heahea h i:a h i:a
+heavy h i: v
+herd h ɛ: r d
+high h a:i
+home h ou
+hurt h œ: t
+i j i:
+ibank ɐi p ɐ ŋ kʰ ei
+immunity ˌi m u: n t i:
+in ɐ n
+instagram ɪ n s t a: g r a m
+j j i:
+k kʰ i:u
+k kʰ y: t
+kpop kʰ i: p pʰ ɔ: p
+lag l ɛ:
+leave l i: v
+level l ɛ: v l i:
+like l a:i kʰ ei
+love l ɐ v
+lunch l ʊ n ts i:
+m m ei
+macbook m ɛ: k p ʊ k
+macbook m a: k b ʊ k
+mask m a: s kʰ i:
+me m i:
+model m ɔ: tʰ i:u
+mozilla m ou ts i: l a:
+n ɛ: n
+o ou
+ok ɔ: kʰ ei
+ok O u kʰ ei
+one w ɐ n
+option ɔ: p s i:u
+p pʰ i:u
+panadol pʰ a: n a: tʰ ou
+part pʰ a: t
+party pʰ a: t tʰ i:
+pat pʰ ɛ: t
+pay pʰ ă j
+point pʰ ɔ:i
+post pʰ ɔ: s i:
+present pʰ ɛ: s ɛ: n
+project pʰ ɔ: j ɛ: k
+q kʰ y: t
+relax tʰ i: l ɛ: k s i:
+report r ɛ: p ɔ: t
+resume r ɛ: s i: m ei
+s s i:
+send s ɛ: n
+set s ɛ: t
+seven s ɛ: v ɛ: n
+shop s ɔ: p
+shopping s ɔ: p pʰ ɪ ŋ
+sir s i:
+sorry s ɔ: l i:
+speech s p i: t
+student s i: j i:
+t tʰ i:
+tag t ɛ: k
+team tʰ i: m
+time t a:i
+timing t a:i m ɪ ŋ
+to tʰ ou
+trainee tʰ ɛ: n i:
+up ɐ p
+van w ɛ: n
+voice v ɔ: s i:
+weekend w i: k ɛ: n
+well w ɛ: l
+wiki w ɪ k ˈi
+windows w ɪ n d ɔ: w s
+work w œ: k
+x tsʰ ɐ p
+year j i:
+you j ɐu
+youtube j ɐu t i: p
+youtube j ɐu t y: b
+一 j ɐ t
+丁 ts a: ŋ
+丁 t ɪ ŋ
+丁 ts ɐ ŋ
+七 tsʰ ɐ t
+万 m a: n
+万 m ɐ k
+丈 ts œ: ŋ
+三 s a: m
+上 s œ: ŋ
+下 h a:
+不 f ɐu
+不 p ɐ t
+丐 kʰ ɔ:i
+丑 tsʰ ɐu
+且 ts œ: ŋ
+且 ts ɵy
+且 tsʰ ɛ:
+丕 pʰ ei
+世 s ɐi
+丘 j ɐu
+丙 p ɪ ŋ
+丞 s ɪ ŋ
+丟 t i:u
+両 l œ: ŋ
+並 p ɪ ŋ
+並 p ɔ: ŋ
+个 k ɔ:
+丫 a:
+中 ts ʊ ŋ
+丰 f ʊ ŋ
+串 tsʰ y: n
+串 kʷ a: n
+丶 ts y:
+丸 j y: n
+丹 t a: n
+主 ts y:
+丼 ts ɛ: ŋ
+丼 ts ɪ ŋ
+乃 ɔ:i
+乃 n a:i
+久 k ɐu
+义 j i:
+之 ts i:
+乍 ts a:
+乍 ts ɔ: k
+乎 f u:
+乎 w u:
+乏 f ɐ t
+乒 pʰ ɪ ŋ
+乒 p ɪ ŋ
+乓 p ɐ m
+乓 pʰ ɔ: ŋ
+乖 kʷ a:i
+乘 s ɪ ŋ
+乙 j y: t
+乜 m i:
+乜 m ɛ:
+乜 m ɐ t
+乜 n ɛ:
+九 k ɐu
+乞 h ɐ t
+也 j a:
+乳 j y:
+乸 n a:
+乸 l a:
+乾 k ɔ: n
+乾 kʰ i: n
+亂 l y: n
+了 l i:u
+予 j y:
+事 s i:
+二 j i:
+于 j y:
+云 w ɐ n
+互 w u:
+五 ŋ
+井 ts ɛ: ŋ
+井 ts ɪ ŋ
+些 s ɛ:
+亞 a:
+亞 ŋ a:
+亡 m ɔ: ŋ
+亡 m ou
+亢 kʰ ɔ: ŋ
+亢 k ɔ: ŋ
+交 k a:u
+亦 j ɪ k
+亨 pʰ a: ŋ
+亨 h ɐ ŋ
+享 h œ: ŋ
+京 k ɪ ŋ
+亭 tʰ ɪ ŋ
+亮 l œ: ŋ
+人 j ɐ n
+什 ts a: p
+什 s ɐ p
+什 s ɐ m
+仁 j ɐ n
+仆 f u:
+仆 pʰ ʊ k
+仇 s ɐu
+仇 kʰ ɐu
+仇 tsʰ ɐu
+今 k ɐ m
+介 k a:i
+仍 j ɪ ŋ
+仔 ts i:
+仔 ts ɐi
+仕 s i:
+他 tʰ a:
+仗 ts œ: ŋ
+付 f u:
+仙 s i: n
+仞 j ɐ n
+代 t ɔ:i
+令 l ɪ ŋ
+令 l i: m
+以 j i:
+以 j y:
+仰 j œ: ŋ
+仰 ŋ ɔ: ŋ
+仱 kʰ œ: ŋ
+仲 ts ʊ ŋ
+件 k i: n
+任 j ɐ m
+份 p ɐ n
+份 f ɐ n
+仿 f ɔ: ŋ
+企 kʰ ei
+伊 j i:
+伍 ŋ
+伎 k ei
+伏 p ʊ k
+伏 f ʊ k
+伐 f ɐ t
+休 j ɐu
+伙 f ɔ:
+伯 p a: k
+伯 p a:
+估 k u:
+伴 pʰ u: n
+伴 p u: n
+伶 l ɪ ŋ
+伸 s ɐ n
+伺 ts i:
+似 tsʰ i:
+伽 kʰ ɛ:
+伽 k a:
+佃 tʰ i: n
+佃 t i: n
+但 t a: n
+佈 p ou
+位 w ɐi
+低 t ɐi
+住 ts y:
+佐 ts ɔ:
+佑 j ɐu
+佔 ts i: m
+何 h ɔ:
+佗 tʰ ɔ:
+佗 tʰ a:
+余 j y:
+佚 j ɐ t
+佛 p ɐ t
+佛 f ɐ t
+作 ts ɔ: k
+你 n ei
+佢 h ɵy
+佢 kʰ ɵy
+佣 j ʊ ŋ
+佩 pʰ u:i
+佬 l ou
+佰 p a: k
+佳 k a:i
+併 p ɪ ŋ
+併 pʰ ɪ ŋ
+佻 tʰ i:u
+使 s i:
+使 s ɐi
+侄 ts ɪ k
+來 l ɔ:i
+來 l ɐi
+例 l ɐi
+侍 s i:
+侗 t ʊ ŋ
+侗 tʰ ʊ ŋ
+供 k ʊ ŋ
+依 j i:
+侣 l ɵ t
+侮 m ou
+侯 h ɐu
+侵 tsʰ ɐ m
+侶 l ɵy
+便 p i: n
+便 pʰ i: n
+係 h ɐi
+促 tsʰ ʊ k
+俄 ŋ ɔ:
+俊 ts ɵ n
+俎 ts ɔ:
+俏 tsʰ i:u
+俐 l ei
+俗 ts ʊ k
+俚 l ei
+保 p ou
+俠 h ɐ p
+俠 h a: p
+信 s ɵ n
+俬 s i:
+修 s ɐu
+俯 f u:
+俱 kʰ ɵy
+俱 k ɵy
+俸 f ʊ ŋ
+俹 ŋ a:
+俺 j i: m
+俾 p ei
+倆 l œ: ŋ
+倉 tsʰ ɔ: ŋ
+個 k ɔ:
+倍 pʰ u:i
+們 m u: n
+倒 t ou
+候 h ɐu
+倚 j i:
+倞 l œ: ŋ
+倞 k ɪ ŋ
+借 ts ɛ:
+倡 tsʰ œ: ŋ
+倦 k y: n
+倫 l ɵ n
+值 ts ɪ k
+假 k a:
+偈 k i: t
+偈 k ɐi
+偉 w ɐi
+偏 pʰ i: n
+偕 k a:i
+做 ts ou
+停 tʰ ɪ ŋ
+健 k i: n
+側 ts ɐ k
+偶 ŋ ɐu
+偷 tʰ ɐu
+偽 ŋ ɐi
+傅 f u:
+傍 pʰ ɔ: ŋ
+傍 p ɔ: ŋ
+傑 k i: t
+傘 s a: n
+備 p ei
+傢 k a:
+催 tsʰ ɵy
+傭 j ʊ ŋ
+傲 ŋ ou
+傳 ts y: n
+傳 tsʰ y: n
+債 ts a:i
+傷 s œ: ŋ
+傻 s ɔ:
+傾 kʰ ɪ ŋ
+僅 k ɐ n
+僆 l ɛ: ŋ
+僆 l i: n
+像 ts œ: ŋ
+僑 kʰ i:u
+僕 p ʊ k
+僚 l i:u
+僧 s ɐ ŋ
+僧 ts ɐ ŋ
+僭 ts i: m
+僭 tsʰ i: m
+僱 k u:
+價 k a:
+僻 pʰ ɪ k
+僻 p u:i
+儀 j i:
+億 j ɪ k
+儆 k ɪ ŋ
+儈 kʰ u:i
+儍 s ɔ:
+儒 j y:
+儘 ts ɵ n
+償 s œ: ŋ
+償 tsʰ œ: ŋ
+優 j ɐu
+儬 tsʰ ɐu
+儲 tsʰ ou
+儲 tsʰ y:
+兀 ŋ ɐ t
+允 w ɐ n
+元 j y: n
+兄 h ɪ ŋ
+充 tsʰ ʊ ŋ
+兆 s i:u
+兆 ts i:u
+兇 h ʊ ŋ
+先 s i: n
+光 kʷ ɔ: ŋ
+克 h a: k
+克 h ɐ k
+兌 t ɵy
+免 m i: n
+免 m ɐ n
+兑 t ɵy
+兒 ŋ ɐi
+兒 j i:
+兔 tʰ ou
+兜 t ɐu
+入 j ɐ p
+內 n a: p
+內 n ɔ:i
+全 tsʰ y: n
+兩 l œ: ŋ
+八 p a: t
+公 k ʊ ŋ
+六 l ʊ k
+兮 h ɐi
+共 k ʊ ŋ
+兵 p ɪ ŋ
+其 k ei
+其 kʰ ei
+具 k ɵy
+典 t i: n
+兼 k i: m
+内 n ɔ:i
+冇 m ou
+冊 tsʰ a: k
+再 ts ɔ:i
+冒 m ou
+冒 m ɐ k
+冕 m i: n
+冗 j ʊ ŋ
+冚 h ɐ m
+冚 kʰ ɐ m
+冚 k ɐ m
+冠 k u: n
+冤 j y: n
+冧 l ɐ m
+冧 n ɐ m
+冬 t ʊ ŋ
+冰 p ɪ ŋ
+冲 tsʰ ʊ ŋ
+冷 l a: ŋ
+准 ts ɵ n
+凈 ts ɛ: ŋ
+凈 ts ɪ ŋ
+凌 l ɪ ŋ
+凍 t ʊ ŋ
+凖 h ɐ m
+凝 kʰ ɪ ŋ
+凝 j ɪ ŋ
+几 k ei
+凡 f a: n
+凰 w ɔ: ŋ
+凱 ŋ ɔ:i
+凱 h ɔ:i
+凳 t ɐ ŋ
+凶 h ʊ ŋ
+凸 t ɐ t
+凹 n ɐ p
+凹 w a:
+凹 l ɐ p
+凹 a:u
+出 tsʰ ɵ t
+凼 tʰ ɐ m
+函 h a: m
+刀 t ou
+刁 t i:u
+刃 j ɐ n
+分 f ɐ n
+切 tsʰ i: t
+切 tsʰ ɐi
+刊 h ɔ: n
+刑 j ɪ ŋ
+划 w a:
+列 l a: t
+列 l i: t
+初 tsʰ ɔ:
+判 pʰ u: n
+別 p i: t
+刨 pʰ a:u
+利 l ei
+刪 s a: n
+刮 kʷ a: t
+到 t ou
+制 ts ɐi
+刷 s a: t
+刷 tsʰ a: t
+券 h y: n
+券 k y: n
+刹 s a: t
+刺 s ɪ k
+刺 tsʰ ɪ k
+刺 tsʰ i:
+刺 tsʰ ɛ: k
+刻 h a: k
+刻 h ɐ k
+剃 tʰ ɐi
+則 ts ɐ k
+前 tsʰ i: n
+剎 s a: t
+剎 tsʰ a: t
+剔 tʰ ɪ k
+剛 k ɔ: ŋ
+剝 m ɔ: k
+剝 p ɔ: k
+剩 s ɪ ŋ
+剩 ts ɪ ŋ
+剪 ts i: n
+副 f u:
+割 k ɔ: t
+創 tsʰ ɔ: ŋ
+剷 tsʰ a: n
+劃 w a: k
+劇 kʰ ɛ: k
+劈 pʰ ɪ k
+劈 pʰ ɛ: k
+劉 l ɐu
+劊 k u:i
+劊 kʰ u:i
+劍 k i: m
+劏 tʰ ɔ: ŋ
+劑 ts ɐi
+劖 tsʰ a: m
+力 l ɪ k
+功 k ʊ ŋ
+加 k a:
+劣 l y: t
+助 ts ɔ:
+努 n ou
+劫 k i: p
+勁 k ɪ ŋ
+勃 p u: t
+勇 j ʊ ŋ
+勉 m i: n
+勒 l ɐ k
+勒 l a: k
+動 t ʊ ŋ
+勘 h ɐ m
+務 m ou
+勝 s ɪ ŋ
+勞 l ou
+募 m ou
+勢 s ɐi
+勤 kʰ ɐ n
+勳 f ɐ n
+勵 l ɐi
+勸 h y: n
+勻 w ɐ n
+勾 ɐu
+勾 ŋ ɐu
+勾 k ɐu
+勿 m ɐ t
+包 p a:u
+匈 h ʊ ŋ
+化 f a:
+北 p a: k
+北 p ɐ k
+匙 s i:
+匙 tsʰ i:
+匠 ts œ: ŋ
+匡 h ɔ: ŋ
+匪 f ei
+匯 w u:i
+匹 pʰ ɐ t
+匿 l ei
+匿 n ɪ k
+匿 n ei
+區 kʰ ɵy
+區 ɐu
+十 s ɐ p
+千 tsʰ i: n
+卅 s a:a:
+卅 s a:
+升 s ɪ ŋ
+午 ŋ
+半 p u: n
+卑 p ei
+卒 tsʰ y: t
+卒 ts ɵ t
+卓 ts œ: k
+卓 tsʰ œ: k
+協 h i: p
+南 n a: m
+博 p ɔ: k
+卜 p ʊ k
+占 ts i: m
+占 ts ɛ: m
+卡 kʰ a:
+卡 kʰ a: t
+卦 kʷ a:
+卧 ŋ ɔ:
+印 ŋ ɐ n
+印 j ɐ n
+危 ŋ ɐi
+即 ts ɪ k
+卵 l ɵ n
+卷 k y: n
+卷 kʰ y: n
+卸 s ɛ:
+卻 kʰ œ: k
+卽 ts ɪ k
+卿 h ɪ ŋ
+厄 a: k
+厄 ɐ k
+厘 l ei
+厚 h ɐu
+原 j y: n
+厥 kʰ y: t
+厭 j i: m
+厲 l ɐi
+厴 j i: m
+去 h ɵy
+參 s a: m
+參 s ɐ m
+參 tsʰ ɐ m
+參 tsʰ a: m
+又 j ɐu
+叉 tsʰ a:
+及 kʰ ɐ p
+及 k ɐ p
+友 j ɐu
+反 f a: n
+叔 s ʊ k
+取 tsʰ ɵy
+受 s ɐu
+叛 p u: n
+叢 tsʰ ʊ ŋ
+口 h ɐu
+古 k u:
+句 k ɵy
+句 k ɐu
+另 l ɪ ŋ
+叨 tʰ ou
+叨 t ou
+只 ts ɛ: k
+只 ts i:
+叫 k i:u
+召 s i:u
+召 ts i:u
+叭 p a:
+叮 t ɪ ŋ
+可 h ɐ k
+可 h ɔ:
+台 tʰ ɔ:i
+台 j i:
+史 s i:
+右 j ɐu
+司 s i:
+叻 l ɪ k
+叻 l ɛ: k
+叻 l ɐ k
+吂 ŋ ɐu
+吃 j a: k
+吃 h ɐ t
+吃 k ɐ t
+吃 h ɛ: k
+各 k ɔ: k
+各 k ɔ:
+合 k ɐ p
+合 h ɐ p
+合 k a: p
+吉 k ɐ t
+吊 t i:u
+吋 tsʰ y: n
+同 tʰ ʊ ŋ
+名 m ɛ: ŋ
+名 m ɪ ŋ
+后 h ɐu
+吐 tʰ ou
+向 h œ: ŋ
+吓 h a:
+吔 j a:
+吔 j ɛ:
+吔 j a: k
+吖 a:
+君 kʷ ɐ n
+吝 l ɵ n
+吞 tʰ ɐ n
+吟 ŋ ɐ m
+吟 ɐ m
+吟 j ɐ m
+吠 f ɐi
+否 f ɐu
+否 pʰ ei
+吧 p a:
+吩 f ɐ n
+含 h ɐ m
+吱 ts i:
+吳 ŋ
+吵 tsʰ a:u
+吶 n a: p
+吶 n ɐ t
+吶 n ɵ t
+吸 kʰ ɐ p
+吸 ŋ ɐ p
+吹 tsʰ ɵy
+吻 m ɐ n
+吼 h a:u
+吼 h ɐu
+吽 ɐu
+吽 ŋ ɐu
+吽 h ʊ ŋ
+吾 ŋ
+吿 kʰ ɐu
+呀 a:
+呂 l ɵy
+呃 a: k
+呃 ŋ a: k
+呃 ɐ k
+呆 t a:i
+呆 ŋ ɔ:i
+呈 tsʰ ɪ ŋ
+告 k ou
+告 k ʊ k
+呎 tsʰ ɛ: k
+呔 tʰ a:i
+呢 n ɛ:
+呢 l i:
+呢 n i:
+呢 n ei
+周 ts ɐu
+呱 w a:
+呱 kʷ a:
+呱 k u:
+味 m ei
+呵 h ɔ:
+呷 h a: p
+呻 s ɐ n
+呼 f u:
+命 m ɛ: ŋ
+命 m ɪ ŋ
+咀 ts ɵy
+咁 k ɐ m
+咄 tsʰ y: t
+咄 t ɵ t
+咇 p i: t
+咇 p ɐ t
+咋 ts a:
+咋 ts a: k
+和 w ɔ:
+咐 f u:
+咒 ts ɐu
+咓 a:
+咕 k u:
+咖 kʰ a:
+咖 k a:
+咗 ts ɔ:
+咚 t ʊ ŋ
+咦 j i:
+咧 l ɛ:
+咩 m ɛ:
+咪 m ɐi
+咬 ŋ a:u
+咯 l ɔ: k
+咯 l ɔ:
+咯 k a: k
+咳 h a:i
+咳 kʰ ɐ t
+咳 kʰ ɔ:i
+咳 h ɔ:i
+咸 h a: m
+咹 h ɔ: n
+咽 j i: n
+咽 j i: t
+咿 j i:
+哀 ɔ:i
+品 p ɐ n
+哂 tsʰ ɐ n
+哂 s a:i
+哄 h ʊ ŋ
+哇 w a:
+哈 h a:
+哉 ts ɔ:i
+哋 t ei
+哋 t i:
+响 h œ: ŋ
+哎 a:i
+哎 ɐi
+員 j y: n
+員 w ɐ n
+哣 t ɐu
+哥 k ɔ:
+哦 ɔ:
+哦 ŋ ɔ:
+哨 s a:u
+哩 l ei
+哩 l ɛ:
+哩 n i:
+哩 l i:
+哪 n a:
+哭 h ʊ k
+哲 ts i: t
+哺 p ou
+哼 ŋ
+哼 h ŋ̩
+哼 h ɐ ŋ
+哽 kʰ ɐ ŋ
+哽 ɐ ŋ
+哽 ŋ ɐ ŋ
+哽 k ɐ ŋ
+唂 k ʊ k
+唇 tsʰ ɵ n
+唈 j ɐ p
+唉 a:i
+唉 ɔ:i
+唎 l ɛ:
+唎 l ei
+唎 l i:
+唏 h ei
+唐 tʰ ɔ: ŋ
+唓 tsʰ ɛ:
+唔 ŋ
+唔 m̩
+唞 tʰ ɐu
+唥 l a: ŋ
+唥 l ɐ ŋ
+唧 ts ɛ: k
+唧 ts i: t
+唧 ts ɪ k
+唪 f ʊ ŋ
+售 s ɐu
+唯 w ɐi
+唱 tsʰ œ: ŋ
+唳 l ɵy
+唷 j ɔ:
+唸 n ɐ m
+唸 l ɐ m
+唸 n i: m
+唾 tʰ ɛ:u
+唾 tʰ ɔ:
+啄 t œ: k
+啄 t œ: ŋ
+啅 t œ: k
+商 s œ: ŋ
+啊 a:
+啋 tsʰ ɔ:i
+啍 tʰ ɵ n
+啍 ts ɵ n
+問 m ɐ n
+啓 kʰ ɐi
+啕 tʰ ou
+啖 t a: m
+啜 ts y: t
+啞 a:
+啞 ɐ k
+啟 kʰ ɐi
+啡 f ɛ:
+啡 f ei
+啤 p i:
+啤 p ɛ:
+啤 pʰ ɛ:
+啦 l a:
+啩 kʷ a:
+啪 pʰ a: k
+啫 ts ɛ:
+啫 ts ɛ: k
+啱 a: m
+啱 ŋ a: m
+啲 t i:
+啵 p ɔ:
+啷 l ɔ: ŋ
+啼 tʰ ɐi
+啾 ts ɐu
+喀 kʰ ɐ k
+喀 h a: k
+喀 kʰ a:
+喂 w ɐi
+喃 n a: m
+善 s i: n
+喇 l a:
+喉 h ɐu
+喊 h a: m
+喊 h ɐ m
+喎 w ɔ:
+喎 w a:
+喐 j ʊ k
+喑 j ɐ m
+喔 ɔ:
+喔 ɐ k
+喘 tsʰ y: n
+喙 f u:i
+喚 w u: n
+喚 f u: n
+喜 h ei
+喝 h ɔ: t
+喪 s ɔ: ŋ
+喫 j a: k
+喫 h ɛ: k
+喬 kʰ i:u
+單 s i: n
+單 t a: n
+喱 l ei
+喳 ts a:
+喳 tsʰ a:
+喺 h ɐi
+喻 j y:
+喼 k i: p
+喼 kʰ ɛ: p
+喼 k ɛ: p
+喼 kʰ i: p
+嗅 tsʰ ɐu
+嗅 h ʊ ŋ
+嗇 s ɪ k
+嗌 ŋ a:i
+嗌 j ɪ k
+嗌 a:i
+嗎 m a:
+嗒 tʰ a: p
+嗒 t a: p
+嗒 tʰ ɐ p
+嗒 t ɐ p
+嗚 w u:
+嗜 s i:
+嗟 ts ɛ:
+嗡 j ʊ ŋ
+嗤 tsʰ i:
+嗦 s ɔ:
+嗬 h ɔ:
+嗮 s a:i
+嗯 ŋ
+嗰 k ɔ:
+嗱 n a:
+嗱 l a:
+嗲 t ɛ:
+嗶 p ɐ t
+嗷 ŋ ou
+嗻 s y:
+嗻 ts ɛ:
+嗽 s ɐu
+嘅 k ɛ:
+嘅 kʰ ɔ:i
+嘆 tʰ a: n
+嘈 tsʰ ou
+嘉 k a:
+嘎 k a:
+嘔 ɐu
+嘔 ŋ ɐu
+嘗 s œ: ŋ
+嘛 m a:
+嘜 m ɐ k
+嘞 l a: k
+嘞 l ɐ k
+嘟 t ou
+嘢 j ɛ:
+嘥 s a:i
+嘩 j i: p
+嘩 w a:
+嘰 k ei
+嘲 ts a:u
+嘴 ts ɵy
+嘸 m ou
+嘸 m̩
+嘸 f u:
+嘻 h ei
+嘿 h ei
+噁 ŋ ɔ: k
+噁 ɔ: k
+噃 p ɔ:
+噄 kʰ ɐu
+噉 t a: m
+噉 k ɐ m
+噌 tsʰ ɐ ŋ
+噌 ts ɐ ŋ
+噎 j i: t
+噏 ɐ p
+噏 ŋ ɐ p
+噓 h ɛ:u
+噓 h ɵy
+噚 tsʰ ɐ m
+噢 ou
+噢 ɔ:
+噢 j ʊ k
+噢 j y:
+噤 kʰ ɐ m
+噤 k ɐ m
+器 h ei
+噩 ŋ ɔ: k
+噪 tsʰ ou
+噬 s ɐi
+噱 kʰ ɛ: k
+噱 tsʰ œ: k
+噱 kʰ œ: k
+噴 pʰ ɐ n
+噴 f ɐ n
+噶 k a:
+噹 t ɔ: ŋ
+嚇 h a: k
+嚎 h ou
+嚐 s œ: ŋ
+嚕 l ou
+嚟 l ɐi
+嚟 l ei
+嚡 h a:i
+嚢 n ɔ: ŋ
+嚥 j i: n
+嚥 j i: t
+嚨 l ʊ ŋ
+嚴 j i: m
+嚷 j œ: ŋ
+嚸 l i: m
+嚼 ts œ: k
+嚼 ts i:u
+嚿 k ɐu
+囈 ŋ ɐi
+囉 l ɔ:
+囊 n ɔ: ŋ
+囌 s ou
+囍 h ei
+囑 ts ʊ k
+囖 l ɔ:
+囚 tsʰ ɐu
+四 s i:
+四 s ei
+囝 ts ɔ:i
+囝 ts ɐi
+囝 n a: m
+回 w u:i
+因 j ɐ n
+囡 n ɵy
+囡 n a: m
+囡 l ɵy
+囤 tʰ y: n
+囤 t ɵ n
+囪 tsʰ ʊ ŋ
+囪 tsʰ œ: ŋ
+困 kʷʰ ɐ n
+固 k u:
+圃 p ou
+圃 pʰ ou
+圈 k y: n
+圈 h y: n
+國 kʷ ɔ: k
+圍 w ɐi
+圑 j y: n
+園 j y: n
+圓 j y: n
+圖 tʰ ou
+團 tʰ y: n
+土 tʰ ou
+在 ts ɔ:i
+圭 kʷ ɐi
+地 t ei
+地 t ɛ: ŋ
+圳 ts ɐ n
+圾 s a: p
+圾 kʰ ɐ p
+址 ts i:
+均 kʷʰ ɐ n
+均 kʷ ɐ n
+均 w ɐ n
+坊 f ɔ: ŋ
+坎 h ɐ m
+坐 tsʰ ɔ:
+坐 ts ɔ:
+坑 h a: ŋ
+坡 pʰ ɔ:
+坡 p ɔ:
+坤 kʷʰ ɐ n
+坦 tʰ a: n
+坪 pʰ ɪ ŋ
+坭 n ɐi
+坳 a:u
+坷 h ɔ:
+坺 pʰ a: t
+坺 pʰ ɛ: t
+坺 p a: t
+垂 s ɵy
+垃 l a: p
+型 j ɪ ŋ
+垢 k ɐu
+埃 a:i
+埃 ɔ:i
+埋 m a:i
+城 s ɪ ŋ
+城 s ɛ: ŋ
+埔 p ou
+埗 p ou
+埞 t ɛ: ŋ
+域 w ɪ k
+埠 f ɐu
+埠 p ou
+埲 p ɔ: ŋ
+埲 p ʊ ŋ
+埲 pʰ ʊ ŋ
+執 ts ɐ p
+培 pʰ u:i
+基 k ei
+埼 kʰ ei
+堂 tʰ ɔ: ŋ
+堅 k i: n
+堆 t ɵy
+堡 p ou
+堤 tʰ ɐi
+堪 h ɐ m
+報 p ou
+場 tsʰ œ: ŋ
+堵 t ou
+塊 f a:i
+塌 tʰ a: p
+塑 s ou
+塑 s ɔ: k
+塔 tʰ a: p
+塗 tʰ ou
+塘 tʰ ɔ: ŋ
+塚 tsʰ ʊ ŋ
+塞 s ɐ k
+塞 tsʰ ɔ:i
+塢 w u:
+填 tʰ i: n
+塱 l ɔ: ŋ
+塵 tsʰ ɐ n
+塾 s ʊ k
+墀 tsʰ i:
+境 k ɪ ŋ
+墅 s ɵy
+墊 t i: n
+墊 t i: m
+墊 ts i: n
+墓 m ou
+墜 ts ɵy
+增 ts ɐ ŋ
+墟 h ɵy
+墨 m ɐ k
+墩 t ɐ n
+墩 t ɵ n
+墮 t ɔ:
+墮 f ɐi
+墳 f ɐ n
+墻 tsʰ œ: ŋ
+壁 p ɛ: k
+壁 p ɪ k
+壆 p ɔ: k
+壇 tʰ a: n
+壓 a: t
+壓 ŋ a: t
+壘 l ɵ t
+壘 l ɵy
+壞 w a:i
+壟 l ʊ ŋ
+壤 j œ: ŋ
+壩 p a:
+士 s i:
+壯 ts ɔ: ŋ
+壹 j ɪ k
+壹 j ɐ t
+壺 w u:
+壽 s ɐu
+夀 s ɐu
+夏 h a:
+夕 ts ɪ k
+外 ŋ ɔ:i
+外 ɔ:i
+多 t ɔ:
+夜 j ɛ:
+夠 k ɐu
+夢 m ʊ ŋ
+夥 f ɔ:
+大 t a:i
+天 tʰ i: n
+太 tʰ a:i
+夫 f u:
+央 j œ: ŋ
+失 s ɐ t
+夷 j i:
+夾 k a: p
+夾 k i: p
+夾 k ɛ: p
+夾 k ɐ p
+奀 ɐ n
+奀 ŋ ɐ n
+奄 j i: m
+奇 k ei
+奇 kʰ ei
+奈 n ɔ:i
+奉 f ʊ ŋ
+奎 f u:i
+奎 kʷʰ ɐi
+奏 ts ɐu
+契 kʰ ɐi
+契 s i: t
+契 kʰ i: t
+奔 p ɐ n
+奕 j ɪ k
+套 tʰ ou
+奚 h ɐi
+奢 s ɛ:
+奢 tsʰ ɛ:
+奧 ou
+奪 t y: t
+奮 f ɐ n
+女 n ɵy
+女 j y:
+女 l ɵy
+奴 n ou
+奶 l a:i
+奶 n a:i
+奸 k a: n
+她 tʰ a:
+她 j i:
+好 h ou
+如 j y:
+妄 m ɔ: ŋ
+妍 j i: n
+妒 t ou
+妓 k ei
+妖 j i:u
+妙 m i:u
+妝 ts ɔ: ŋ
+妥 tʰ ɔ:
+妨 f ɔ: ŋ
+妮 n ei
+妳 l ei
+妳 n ei
+妳 n a:i
+妹 m u:i
+妻 tsʰ ɐi
+妾 tsʰ i: p
+姆 m ou
+姊 ts ɛ:
+姊 ts i:
+始 tsʰ i:
+姐 ts ɛ:
+姑 k u:
+姓 s ɪ ŋ
+姓 s ɛ: ŋ
+委 w ɐi
+姜 k œ: ŋ
+姣 h a:u
+姣 k a:u
+姦 k a: n
+姨 j i:
+姬 k ei
+姻 j ɐ n
+姿 ts i:
+威 w ɐi
+娃 w a:
+娘 n œ: ŋ
+娛 j y:
+娜 n a:
+娜 n ɔ:
+娥 ŋ ɔ:
+娩 m i: n
+娩 m a: n
+娶 tsʰ ɵy
+婆 pʰ ɔ:
+婉 j y: n
+婊 p i:u
+婚 f ɐ n
+婢 pʰ ei
+婦 f u:
+婷 tʰ ɪ ŋ
+媒 m u:i
+媚 m ei
+媳 s ɪ k
+媽 m a:
+媾 k ɐu
+嫁 k a:
+嫂 s ou
+嫉 ts ɐ t
+嫌 j i: m
+嫩 l y: n
+嫩 n y: n
+嫪 l ou
+嫲 m a:
+嫻 h a: n
+嬉 h ei
+嬌 k i:u
+嬰 j ɪ ŋ
+嬲 l ɐu
+嬲 n i:u
+嬲 n ɐu
+嬸 s ɐ m
+子 ts i:
+孔 h ʊ ŋ
+孕 j ɐ n
+孖 m a:
+字 ts i:
+存 tsʰ y: n
+孚 f u:
+孝 h a:u
+孟 m a: ŋ
+季 kʷ ɐi
+孤 k u:
+孥 n ou
+孩 h a:i
+孩 h ɔ:i
+孫 s y: n
+孭 m ɛ:
+孰 s ʊ k
+孱 tsʰ a: n
+孱 s a: n
+學 h ɔ: k
+孻 l a:i
+孽 j i: p
+孽 j i: t
+它 tʰ ɔ:
+它 tʰ a:
+宅 ts a: k
+宇 j y:
+守 s ɐu
+安 ŋ ɔ: n
+安 ɔ: n
+宋 s ʊ ŋ
+完 j y: n
+宏 w ɐ ŋ
+宗 ts ʊ ŋ
+官 k u: n
+宙 ts ɐu
+定 t ɛ: ŋ
+定 t ɪ ŋ
+宛 j y: n
+宜 j i:
+宝 p ou
+客 h a: k
+宣 s y: n
+室 s ɐ t
+宮 k ʊ ŋ
+宰 ts ɔ:i
+害 h ɔ:i
+害 h ɔ: t
+宴 j i: n
+宵 s i:u
+家 k a:
+家 k u:
+宸 s ɐ n
+容 j ʊ ŋ
+宿 s ɐu
+宿 s ʊ k
+寂 ts ɪ k
+寃 j y: n
+寄 k ei
+寅 j ɐ n
+密 m ɐ t
+寇 kʰ ɐu
+富 f u:
+寐 m ei
+寒 h ɔ: n
+寓 j y:
+寞 m ɔ: k
+察 tsʰ a: t
+寡 kʷ a:
+寢 tsʰ ɐ m
+實 s ɐ t
+寧 n ɪ ŋ
+寨 ts a:i
+寨 ts ɐi
+審 s ɐ m
+寫 s ɛ:
+寬 f u: n
+寮 l i:u
+寰 w a: n
+寳 pʰ ɐ n
+寵 tsʰ ʊ ŋ
+寶 p ou
+寸 tsʰ y: n
+寺 ts i:
+封 f ʊ ŋ
+射 s ɛ:
+射 j ɛ:
+射 j ɪ k
+將 ts œ: ŋ
+專 ts y: n
+尊 ts ɵ n
+尊 ts y: n
+尋 tsʰ ɐ m
+對 t ɵy
+導 t ou
+小 s i:u
+少 s i:u
+尖 ts i: m
+尚 s œ: ŋ
+尤 j ɐu
+尬 k a:i
+就 ts ɐu
+尷 k a: m
+尹 w ɐ n
+尺 tsʰ ɛ:
+尺 tsʰ ɛ: k
+尼 n ei
+尾 m ei
+尿 s ɵy
+尿 n i:u
+局 k ʊ k
+屁 pʰ ei
+居 k ɵy
+屆 k a:i
+屈 w ɐ t
+屋 ʊ k
+屋 ŋ ʊ k
+屌 t i:u
+屍 s i:
+屎 s i:
+屎 h ei
+屏 pʰ ɛ: ŋ
+屏 p ɪ ŋ
+屏 pʰ ɪ ŋ
+屐 kʰ ɛ: k
+屑 s i: t
+展 ts i: n
+屙 ŋ ɔ:
+屙 ɔ:
+屠 tʰ ou
+屢 l ɵy
+層 tsʰ ɐ ŋ
+履 l ei
+履 l ɵy
+屬 ts ʊ k
+屬 s ʊ k
+屯 tʰ y: n
+屯 ts ɵ n
+山 s a: n
+屹 ŋ ɐ t
+岀 tsʰ ɵy
+岑 s ɐ m
+岔 tsʰ a:
+岡 k ɔ: ŋ
+岩 ŋ a: m
+岬 k a: p
+岳 ŋ ɔ: k
+岸 ŋ ɔ: n
+峒 t ʊ ŋ
+峒 tʰ ʊ ŋ
+峨 ŋ ɔ:
+峯 f ʊ ŋ
+峰 f ʊ ŋ
+島 t ou
+峻 ts ɵ n
+峽 h a: p
+崆 h ʊ ŋ
+崇 s ʊ ŋ
+崎 kʰ ei
+崗 k ɔ: ŋ
+崙 l ɵ n
+崧 s ʊ ŋ
+崩 p ɐ ŋ
+嵋 m ei
+嵌 h ɐ m
+嵌 h a: m
+嵬 ŋ ɐi
+嶄 ts a: m
+嶄 ts a: n
+嶙 l ɵ n
+嶺 l ɪ ŋ
+嶺 l ɛ: ŋ
+嶼 j y:
+嶼 ts ɵy
+巉 tsʰ a: m
+巒 l y: n
+川 tsʰ y: n
+州 ts ɐu
+巡 tsʰ ɵ n
+巢 tsʰ a:u
+工 k ʊ ŋ
+左 ts ɔ:
+巧 h a:u
+巧 kʰ i:u
+巨 k ɵy
+巫 m ou
+差 tsʰ i:
+差 tsʰ a:i
+差 tsʰ a:
+己 k ei
+已 j i:
+巴 p a:
+巷 h ɔ: ŋ
+巾 k ɐ n
+巿 f ɐ t
+巿 s i:
+市 s i:
+布 p ou
+帆 f a: n
+希 h ei
+帑 tʰ ɔ: ŋ
+帑 n ou
+帖 tʰ i: p
+帚 ts ɐu
+帚 ts a:u
+帝 t ɐi
+帥 s ɵy
+帥 s ɵ t
+師 s i:
+席 ts ɪ k
+帳 ts œ: ŋ
+帶 t a:i
+帷 w ɐi
+常 s œ: ŋ
+帽 m ou
+幀 ts ɪ ŋ
+幃 w ɐi
+幄 ɐ k
+幅 f ʊ k
+幕 m ɔ: k
+幟 tsʰ i:
+幡 f a: n
+幢 tsʰ ɔ: ŋ
+幢 tʰ ɔ: ŋ
+幢 ts ɔ: ŋ
+幣 p ɐi
+幫 p ɔ: ŋ
+干 k ɔ: n
+平 pʰ ɛ: ŋ
+平 pʰ ɪ ŋ
+年 n i: n
+幸 h ɐ ŋ
+幹 k ɔ: n
+幻 w a: n
+幼 j ɐu
+幽 j ɐu
+幾 k ei
+庇 p ei
+床 tsʰ ɔ: ŋ
+序 ts ɵy
+底 t ɐi
+店 t i: m
+庚 k ɐ ŋ
+府 f u:
+度 t ou
+度 t ɔ: k
+座 ts ɔ:
+庫 f u:
+庭 tʰ ɪ ŋ
+庵 ɐ m
+庶 s y:
+康 h ɔ: ŋ
+庸 j ʊ ŋ
+庹 tʰ ɔ: k
+庾 j y:
+廁 tsʰ ɐ k
+廁 tsʰ i:
+廂 s œ: ŋ
+廈 h a:
+廉 l i: m
+廊 l ɔ: ŋ
+廖 l i:u
+廚 tsʰ ɵy
+廚 tsʰ y:
+廝 s i:
+廟 m i:u
+廠 tsʰ ɔ: ŋ
+廢 f ɐi
+廣 kʷ ɔ: ŋ
+廬 l ou
+廳 tʰ ɛ: ŋ
+延 j i: n
+廷 tʰ ɪ ŋ
+建 k i: n
+廿 j a:
+廿 j ɛ:
+廿 n i: m
+开 kʰ ɔ:i
+弄 l ʊ ŋ
+弄 n ʊ ŋ
+弊 p ɐi
+弍 j i:
+式 s ɪ k
+弓 k ʊ ŋ
+引 j ɐ n
+弘 w ɐ ŋ
+弛 tsʰ i:
+弟 t ɐi
+弟 t i:
+弟 tʰ ɐi
+弦 j y: n
+弦 j i: n
+弱 j œ: k
+張 ts œ: ŋ
+強 k œ: ŋ
+強 kʰ œ: ŋ
+弸 pʰ ɐ ŋ
+弸 p ɐ ŋ
+强 kʰ œ: ŋ
+弼 p ɐ t
+彈 tʰ a: n
+彈 t a: n
+彌 n ei
+彌 m ei
+彎 w a: n
+彗 s ɵy
+彗 w ɐi
+彙 w ɐi
+彙 w u:i
+形 j ɪ ŋ
+彤 tʰ ʊ ŋ
+彥 j i: n
+彩 tsʰ ɔ:i
+彪 p i:u
+彬 p ɐ n
+彭 pʰ a: ŋ
+彭 pʰ ɐ ŋ
+影 j ɪ ŋ
+影 j ɛ: ŋ
+彷 f ɔ: ŋ
+彷 pʰ ɔ: ŋ
+役 j ɪ k
+彼 p ei
+彿 f ɐ t
+往 w ɔ: ŋ
+征 ts ɪ ŋ
+待 t ɔ:i
+徇 s ɵ n
+很 h ɐ n
+徊 w u:i
+律 l ɵ t
+後 h ɐu
+徐 tsʰ ɵy
+徑 k ɪ ŋ
+徒 tʰ ou
+得 t ɐ k
+徘 pʰ u:i
+從 tsʰ ʊ ŋ
+御 ŋ a:
+御 j y:
+復 f ɐu
+復 f ʊ k
+循 tsʰ ɵ n
+微 m ei
+徵 ts i:
+徵 ts ɪ ŋ
+德 t ɐ k
+徹 tsʰ i: t
+徽 f ɐi
+心 s ɐ m
+必 p i: t
+忌 k ei
+忍 j ɐ n
+志 ts i:
+忘 m ɔ: ŋ
+忙 m ɔ: ŋ
+忟 m ɐ ŋ
+忠 ts ʊ ŋ
+快 f a:i
+念 n i: m
+忽 f ɐ t
+忿 f ɐ n
+怎 ts ɐ m
+怒 n ou
+怕 pʰ a:
+怖 p ou
+思 s i:
+思 s ɔ:i
+怡 j i:
+急 k ɐ p
+怦 pʰ ɪ ŋ
+性 s ɪ ŋ
+怨 j y: n
+怪 kʷ a:i
+怯 h i: p
+恃 tsʰ i:
+恆 h ɐ ŋ
+恐 h ʊ ŋ
+恒 h ɐ ŋ
+恕 s y:
+恙 j œ: ŋ
+恢 f u:i
+恣 ts i:
+恣 tsʰ i:
+恤 s ɵ t
+恥 tsʰ i:
+恨 h ɐ n
+恩 j ɐ n
+恭 k ʊ ŋ
+息 s ɐ k
+恰 h ɐ p
+悄 tsʰ i:u
+悅 j y: t
+悉 s ɪ k
+悒 j ɐ p
+悔 f u:i
+悖 p u:i
+悗 m u: n
+悚 s ʊ ŋ
+悟 ŋ
+悠 j ɐu
+患 w a: n
+您 n ei
+悲 p ei
+悶 m u: n
+悸 kʷ ɐi
+悼 t ou
+悽 tsʰ ɐi
+情 tsʰ ɪ ŋ
+惇 t ɵ n
+惑 w a: k
+惕 tʰ ɪ k
+惘 m ɔ: ŋ
+惜 s ɪ k
+惜 s ɛ: k
+惟 w ɐi
+惠 w ɐi
+惡 w u:
+惡 ŋ ɔ: k
+惡 ɔ: k
+惦 t i: m
+惰 t ɔ:
+惱 n ou
+想 s œ: ŋ
+惶 w ɔ: ŋ
+惹 j ɛ:
+愁 s ɐu
+愈 j y:
+愉 j y:
+意 j i:
+愚 j y:
+愛 ɔ:i
+愛 ŋ ɔ:i
+感 k ɐ m
+愧 kʷʰ ɐi
+愴 tsʰ ɔ: ŋ
+愿 ɐ n
+慈 tsʰ i:
+態 tʰ a:i
+慌 f ɔ: ŋ
+慎 s ɐ n
+慕 m ou
+慘 tsʰ a: m
+慚 tsʰ a: m
+慢 m a: n
+慣 kʷ a: n
+慤 kʰ ɔ: k
+慧 w ɐi
+慨 kʰ ɔ:i
+慮 l ɵy
+慰 w ɐi
+慳 h a: n
+慳 h ɐ n
+慶 h ɪ ŋ
+慷 kʰ ɔ: ŋ
+慷 h ʊ ŋ
+慾 j ʊ k
+憂 j ɐu
+憎 ts ɐ ŋ
+憐 l i: n
+憑 pʰ ɛ: ŋ
+憑 p ɐ ŋ
+憑 pʰ ɐ ŋ
+憚 t a: n
+憤 f ɐ n
+憧 tʰ ʊ ŋ
+憧 tsʰ ʊ ŋ
+憩 h ei
+憫 m ɐ n
+憬 k ɪ ŋ
+憬 kʷ ɪ ŋ
+憲 h i: n
+憶 j ɪ k
+憾 h ɐ m
+懂 t ʊ ŋ
+懇 h ɐ n
+應 j ɪ ŋ
+懊 ou
+懞 m ʊ ŋ
+懣 m u: n
+懲 tsʰ ɪ ŋ
+懵 m ʊ ŋ
+懶 l a: n
+懷 w a:i
+懸 j y: n
+懺 tsʰ a: m
+懼 k ɵy
+懿 j i:
+戀 l y: n
+戇 ɔ: ŋ
+戇 ts ɔ: ŋ
+戇 ŋ ɔ: ŋ
+戊 m ou
+戎 j ʊ ŋ
+成 tsʰ ɪ ŋ
+成 s ɪ ŋ
+成 s ɛ: ŋ
+我 ŋ ɔ:
+戒 k a:i
+戕 tsʰ œ: ŋ
+或 w a: k
+戚 tsʰ ɪ k
+戟 k ɪ k
+戟 kʰ ɪ k
+戥 t ɐ ŋ
+截 ts i: t
+戯 j i:
+戰 ts i: n
+戲 h ei
+戲 f u:
+戴 t a:i
+戶 w u:
+户 w u:
+戽 f u:
+戾 l ɐi
+戾 l ɵy
+房 f ɔ: ŋ
+所 s ɔ:
+扁 pʰ i: n
+扁 p i: n
+扂 t i: m
+扇 s i: n
+扉 f ei
+手 s ɐu
+才 tsʰ ɔ:i
+扎 ts a: t
+扑 p ɔ: k
+扒 pʰ a:
+打 t a:
+托 tʰ ɔ: k
+扣 kʰ ɐu
+扭 n ɐu
+扭 l ɐu
+扮 p a: n
+扯 tsʰ ɛ:
+扶 f u:
+批 pʰ ɐi
+扻 h ɐ m
+扻 ts i: t
+扼 a: k
+扼 ɐ k
+扼 a:
+找 ts a:u
+承 s ɪ ŋ
+技 k ei
+抄 tsʰ a:u
+抆 m ɐ n
+把 p a:
+抌 t ɐ m
+抑 j ɪ k
+抓 ts a:
+抓 ts a:u
+抓 a:u
+投 tʰ ɐu
+抖 t ɐu
+抖 tʰ ɐu
+抗 kʰ ɔ: ŋ
+折 ts i: t
+折 ts i: p
+报 p ou
+抦 p ɪ ŋ
+抨 pʰ ɪ ŋ
+抨 pʰ a: ŋ
+披 pʰ ei
+抬 tʰ ɔ:i
+抱 pʰ ou
+抱 p ou
+抵 t ɐi
+抹 m a: t
+抹 m u: t
+押 a: p
+押 ŋ a: p
+押 a: t
+抽 tsʰ ɐu
+抿 m ɐ n
+拂 f ɐ t
+拃 ts a:
+拆 tsʰ a: k
+拇 m ou
+拉 l a: p
+拉 l a:i
+拉 l a:
+拋 pʰ a:u
+拌 pʰ u: n
+拌 p u: n
+拍 pʰ a: k
+拎 l ɪ ŋ
+拎 n ɪ ŋ
+拏 n a:
+拐 kʷ a:i
+拒 kʰ ɵy
+拓 tʰ ɔ: k
+拓 tʰ a: p
+拔 p ɐ t
+拖 tʰ ɔ:
+拗 a:u
+拗 ŋ a:u
+拘 kʰ ɵy
+拙 ts y: t
+拚 pʰ ɪ ŋ
+拚 pʰ u: n
+招 ts i:u
+拜 p a:i
+括 kʰ u: t
+拮 k i: t
+拮 k ɐ t
+拯 tsʰ ɪ ŋ
+拱 k ʊ ŋ
+拳 kʰ y: n
+拼 pʰ ɛ: ŋ
+拼 pʰ ɪ ŋ
+拾 s ɐ p
+拿 n a:
+持 tsʰ i:
+指 ts i:
+挈 kʰ i: t
+按 ŋ ɔ: n
+按 ɔ: n
+挐 n a:u
+挐 n a:
+挐 j y:
+挐 l a:
+挑 tʰ ou
+挑 tʰ i:u
+挖 w a: t
+挖 w a:
+挨 a:i
+挪 n ɔ:
+挫 tsʰ ɔ:
+振 ts ɐ n
+挺 tʰ ɪ ŋ
+挽 w a: n
+挾 k i: p
+挾 h i: p
+挾 h a: p
+捉 ts ʊ k
+捋 l y: t
+捌 p a: t
+捍 h ɔ: n
+捏 n i: p
+捐 k y: n
+捕 p ou
+换 w u: n
+捧 f ʊ ŋ
+捧 p ʊ ŋ
+捧 pʰ ʊ ŋ
+捨 s ɛ:
+捩 l i: t
+据 k ɵy
+捱 a:i
+捱 ŋ a:i
+捲 k y: n
+捶 tsʰ ɵy
+捷 ts i: t
+捹 f ɪ ŋ
+捹 f ɐ ŋ
+捹 p ɐ n
+捺 n a: t
+捽 ts ɵ t
+捽 tsʰ y: t
+掂 t i: m
+掃 s ou
+掅 tsʰ ɪ ŋ
+授 s ɐu
+掉 t ɛ:u
+掉 ts a:u
+掉 t i:u
+掌 ts œ: ŋ
+排 pʰ a:i
+掕 l ɐ ŋ
+掗 ŋ a:
+掗 a:
+掘 kʷ ɐ t
+掙 ts a: ŋ
+掙 ts ɐ ŋ
+掛 kʷʰ a:
+掛 kʷ a:
+掟 t ɛ: ŋ
+掠 l œ: k
+採 tsʰ ɔ:i
+探 tʰ a: m
+掣 tsʰ i: t
+掣 ts ɐi
+接 ts i: p
+控 h ʊ ŋ
+推 tʰ ɵy
+推 tsʰ ɵy
+掩 j i: m
+掩 ɐ m
+措 tsʰ ou
+措 ts a: k
+掹 m ɐ ŋ
+掹 m a: ŋ
+揀 k a: n
+揆 kʷʰ ɐi
+揇 l a: m
+揇 n a: m
+揈 f ɪ ŋ
+揈 f ɐ ŋ
+揈 kʷ ɐ ŋ
+揉 j ɐu
+描 m i:u
+提 tʰ ɐi
+提 t ɐi
+插 tsʰ a: p
+揗 tʰ ɐ n
+揚 j œ: ŋ
+換 w u: n
+揞 ɐ m
+揞 ŋ ɐ m
+握 a: k
+握 ɐ k
+揣 tsʰ ɵy
+揣 tsʰ y: n
+揦 l a:
+揩 h a:i
+揪 tsʰ ɐu
+揪 ts ɐu
+揭 kʰ i: t
+揮 f ɐi
+揳 s i: p
+揳 s ɛ:
+揳 s i: t
+援 j y: n
+援 w u: n
+揸 ts a:
+揼 t ɐ m
+揼 t ɐ p
+揾 w ɐ n
+搇 kʰ ɐ m
+搇 k ɐ m
+損 s y: n
+搏 p ɔ: k
+搐 tsʰ ʊ k
+搓 tsʰ ɔ:
+搓 tsʰ a:i
+搔 s ou
+搖 j i:u
+搗 t ou
+搜 s ɐu
+搞 k a:u
+搣 m i: t
+搬 p u: n
+搭 t a: p
+搲 w a:
+搲 w ɛ:
+搵 w ɐ n
+搶 tsʰ œ: ŋ
+搽 tsʰ a:
+摀 w u:
+摑 kʷ a: k
+摑 kʷ ɔ: k
+摒 p ɪ ŋ
+摘 ts a: k
+摙 l i: n
+摞 l ɔ:
+摟 l ɐu
+摧 tsʰ ɵy
+摩 m ɔ:
+摯 ts i:
+摳 kʰ ɐu
+摷 tsʰ a:u
+摷 ts i:u
+摸 m ɔ: k
+摸 m ɔ:
+摺 ts a: p
+摺 ts i: p
+摻 s a: m
+摻 tsʰ a: m
+撇 pʰ i: t
+撈 l a:u
+撈 l ou
+撐 tsʰ a: ŋ
+撒 s a: t
+撓 n a:u
+撕 s i:
+撚 n ɐ n
+撚 l i: n
+撚 n i: n
+撞 tsʰ ɔ: ŋ
+撞 ts ɔ: ŋ
+撤 tsʰ i: t
+撥 pʰ u: t
+撥 p u: t
+撩 l i:u
+撫 f u:
+撬 h i:u
+撬 k i:u
+播 p ɔ:
+撮 tsʰ y: t
+撲 p ɔ: k
+撲 pʰ ɔ: k
+撳 k ɐ m
+撻 tʰ a: t
+撻 t a: t
+撼 h ɐ m
+撿 k i: m
+擁 ʊ ŋ
+擁 j ʊ ŋ
+擂 l ɵy
+擅 s i: n
+擇 ts a: k
+擊 k ɪ k
+擋 t ɔ: ŋ
+操 tsʰ ou
+擎 kʰ ɪ ŋ
+擏 kʰ ɪ ŋ
+擏 k ɛ: ŋ
+擒 kʰ ɐ m
+擔 t a: m
+擘 m a: k
+據 k ɵy
+擝 m ɐ ŋ
+擠 ts ɐi
+擤 s ɐ ŋ
+擦 tsʰ a: t
+擬 j i:
+擰 n ɪ ŋ
+擰 l ɪ ŋ
+擲 ts a: k
+擳 ts i: t
+擴 kʷ ɔ: k
+擴 kʰ ɔ: ŋ
+擴 kʷʰ ɔ: k
+擴 kʷʰ ɔ: ŋ
+擷 k i: t
+擷 kʰ i: t
+擸 l i: p
+擸 l a: p
+擺 p a:i
+擾 j i:u
+攀 pʰ a: n
+攋 l a:
+攋 l a:i
+攏 l ʊ ŋ
+攔 l a: n
+攘 j œ: ŋ
+攜 kʷʰ ɐi
+攝 s i: p
+攝 n i: p
+攞 l ɔ:
+攣 l y: n
+攤 tʰ a: n
+攪 k a:u
+攬 l a: m
+支 ts i:
+攰 k u:i
+收 s ɐu
+攸 j ɐu
+改 k ɔ:i
+攻 k ʊ ŋ
+放 f ɔ: ŋ
+政 ts ɪ ŋ
+故 k u:
+效 h a:u
+敏 m ɐ n
+救 k ɐu
+敗 p a:i
+敘 ts ɵy
+教 k a:u
+敝 p ɐi
+敢 k ɐ m
+散 s a: n
+敦 t ɵy
+敦 t ɵ n
+敬 k ɪ ŋ
+敲 h a:u
+整 ts ɪ ŋ
+敵 t ɪ k
+敷 f u:
+數 s ou
+數 s ɔ: k
+斂 l i: m
+斃 p ɐi
+文 m ɐ n
+斐 f ei
+斑 p a: n
+斕 l a: n
+斗 t ɐu
+料 l i:u
+斜 tsʰ ɛ:
+斜 j ɛ:
+斟 ts ɐ m
+斤 k ɐ n
+斥 tsʰ ɪ k
+斧 f u:
+斬 ts a: m
+斯 s i:
+新 s ɐ n
+斷 tʰ y: n
+斷 t y: n
+方 f ɔ: ŋ
+於 w u:
+於 j y:
+施 j i:
+施 s i:
+旁 pʰ ɔ: ŋ
+旅 l ɵy
+旋 s y: n
+旌 ts ɪ ŋ
+旌 s ɪ ŋ
+族 ts ʊ k
+旗 kʰ ei
+既 k ei
+旣 k ei
+日 j ɐ t
+旦 t a: n
+旨 ts i:
+早 ts ou
+旬 tsʰ ɵ n
+旭 j ʊ k
+旮 k ɔ:
+旯 l ɔ:
+旱 h ɔ: n
+旳 t ɪ k
+时 s ɐ t
+旺 w ɔ: ŋ
+昂 ŋ ɔ: ŋ
+昃 ts ɐ k
+昆 kʷ ɐ n
+昇 s ɪ ŋ
+昌 tsʰ œ: ŋ
+明 m ɪ ŋ
+昏 f ɐ n
+昐 f ɐ n
+易 j i:
+易 j ɪ k
+昔 s ɪ k
+星 s ɪ ŋ
+星 s ɛ: ŋ
+映 j ɪ ŋ
+春 tsʰ ɵ n
+昧 m ei
+昧 m u:i
+昨 ts ɔ: k
+昭 ts i:u
+昭 tsʰ i:u
+是 s i:
+昺 p ɪ ŋ
+显 j i: n
+時 s i:
+晃 f ɔ: ŋ
+晉 ts ɵ n
+晌 h œ: ŋ
+晏 ŋ a: n
+晏 a: n
+晒 s a:i
+晚 m a: n
+晝 ts ɐu
+晤 ŋ
+晨 s ɐ n
+普 pʰ ou
+景 k ɪ ŋ
+景 j ɪ ŋ
+晰 s ɪ k
+晴 tsʰ ɛ: ŋ
+晴 tsʰ ɪ ŋ
+晶 ts ɪ ŋ
+智 ts i:
+晾 l ɔ: ŋ
+暇 h a:
+暈 w ɐ n
+暉 f ɐi
+暑 s y:
+暖 l y: n
+暖 n y: n
+暗 ŋ ɐ m
+暗 ɐ m
+暢 tsʰ œ: ŋ
+暨 kʰ ei
+暪 m a: n
+暫 ts a: m
+暮 m ou
+暴 p ʊ k
+暴 p ou
+暸 l i:u
+暹 tsʰ i: m
+曆 l ɪ k
+曇 tʰ a: m
+曉 h i:u
+曖 ɔ:i
+曙 tsʰ y:
+曙 s y:
+曜 j i:u
+曦 h ei
+曬 s a:i
+曱 k a: t
+曱 k ɐ t
+曱 k a: p
+曱 k a: k
+曱 ts a: t
+曲 kʰ ʊ k
+曳 j ɐi
+更 k ɐ ŋ
+更 k a: ŋ
+更 ɐ ŋ
+書 s y:
+曹 tsʰ ou
+曼 m a: n
+曾 ts ɐ ŋ
+曾 tsʰ ɐ ŋ
+替 tʰ ɐi
+最 ts ɵy
+會 kʰ u:i
+會 w u:i
+月 j y: t
+有 j ɐu
+朋 pʰ ɐ ŋ
+服 f ʊ k
+朕 ts ɐ m
+朗 l ɔ: ŋ
+望 m ɔ: ŋ
+朝 ts i:u
+朝 tsʰ i:u
+期 k ei
+期 kʰ ei
+朦 m ʊ ŋ
+朧 l ʊ ŋ
+木 m ʊ k
+未 m ei
+末 m u: t
+本 p u: n
+札 ts a: t
+朱 ts y:
+朴 pʰ i:u
+朴 pʰ ɔ: k
+朵 t ɛ:u
+朵 t ɔ:
+朽 j ɐu
+朽 n ɐu
+权 kʰ y: n
+杆 k ɔ: n
+杉 tsʰ a: m
+李 l ei
+杏 h ɐ ŋ
+材 tsʰ ɔ:i
+村 tsʰ y: n
+杖 ts œ: ŋ
+杜 t ou
+杞 k ei
+束 tsʰ ʊ k
+来 l ɔ:i
+杭 h ɔ: ŋ
+杮 tsʰ i:
+杯 p u:i
+杰 k i: t
+東 t ʊ ŋ
+杷 pʰ a:
+松 tsʰ ʊ ŋ
+板 p a: n
+枇 pʰ ei
+枉 w ɔ: ŋ
+析 s ɪ k
+析 tsʰ ɪ k
+枕 ts ɐ m
+林 l ɐ m
+枚 m u:i
+果 kʷ ɔ:
+果 k u:
+枝 ts i:
+枝 kʰ ei
+枯 f u:
+枱 tʰ ɔ:i
+架 k a:
+柄 p ɛ: ŋ
+柄 p ɪ ŋ
+柏 p a: k
+柏 pʰ a: k
+某 m ɐu
+柑 k ɐ m
+柒 tsʰ ɐ t
+染 j i: m
+柔 j ɐu
+柚 j ɐu
+柚 ts ʊ k
+柞 ts a:
+柞 ts a: k
+柞 ts ɔ: k
+查 ts a:
+查 tsʰ a:
+柬 k a: n
+柯 ɔ:
+柱 tsʰ y:
+柳 l ɐu
+柴 tsʰ a:i
+柵 s a: n
+柵 tsʰ a: k
+柺 kʷ a:i
+査 tsʰ a:
+柿 tsʰ i:
+栗 l ɵ t
+校 k a:u
+校 h a:u
+栢 p a: k
+核 h ɐ t
+核 w ɐ t
+根 k ɐ n
+格 k a: k
+栽 ts ɔ:i
+桂 kʷ ɐi
+桃 tʰ ou
+桅 w ɐi
+桅 ŋ ɐi
+框 h ɔ: ŋ
+框 kʷʰ a: ŋ
+案 ŋ ɔ: n
+案 ɔ: n
+桌 ts œ: k
+桌 tsʰ œ: k
+桐 tʰ ʊ ŋ
+桑 s ɔ: ŋ
+桔 a: t
+桔 k ɐ t
+桶 tʰ ʊ ŋ
+桿 k ɔ: n
+梁 l œ: ŋ
+梅 m u:i
+梓 ts i:
+梗 kʷ a: ŋ
+梗 k ɐ ŋ
+梘 k a: n
+條 tʰ i:u
+梧 ŋ
+梨 l ei
+梭 s ɔ:
+梯 tʰ ɐi
+械 h a:i
+梳 s ɔ:
+梵 f a: n
+棄 h ei
+棉 m i: n
+棋 kʰ ei
+棍 kʷ ɐ n
+棒 pʰ a: ŋ
+棕 ts ʊ ŋ
+棖 tsʰ a: ŋ
+棖 tsʰ a: n
+棖 tsʰ a: m
+棗 ts ou
+棘 k ɪ k
+棚 pʰ a: ŋ
+棟 t ʊ ŋ
+棠 tʰ ɔ: ŋ
+棧 ts a: n
+森 s ɐ m
+棱 l ɪ ŋ
+棲 tsʰ ɐi
+棵 pʰ ɔ:
+棵 f ɔ:
+棺 k u: n
+椅 j i:
+植 ts ɪ k
+椏 ŋ a:
+椏 a:
+椒 ts i:u
+椰 j ɛ:
+楂 ts a:
+楂 tsʰ a:
+楊 j œ: ŋ
+楋 tsʰ ɐu
+楓 f ʊ ŋ
+楚 tsʰ ɔ:
+楣 m ei
+業 j i: p
+極 k ɪ k
+楷 kʰ a:i
+楷 k a:i
+概 kʰ ɔ:i
+榆 j y:
+榔 l ɔ: ŋ
+榕 j ʊ ŋ
+榚 tsʰ ɵy
+榛 ts ɵ n
+榜 pʰ ɔ: ŋ
+榜 p ɔ: ŋ
+榨 ts a:
+榮 w ɪ ŋ
+榴 l ɐu
+構 k ɐu
+構 kʰ ɐu
+槍 tsʰ œ: ŋ
+槐 w a:i
+槤 l i: n
+槽 tsʰ ou
+樂 l ɔ: k
+樂 ŋ ɔ: k
+樂 ŋ a:u
+樊 f a: n
+樑 l œ: ŋ
+樓 l ɐu
+樖 pʰ ɔ:
+標 p i:u
+樞 s y:
+樟 ts œ: ŋ
+模 m ou
+樣 j œ: ŋ
+樸 p ʊ k
+樸 pʰ ɔ: k
+樹 s y:
+樺 w a:
+樽 ts ɵ n
+橋 kʰ i:u
+橘 kʷ ɐ t
+橙 tsʰ a: ŋ
+機 k ei
+橡 ts œ: ŋ
+橢 tʰ ɔ:
+橫 w a: ŋ
+檀 tʰ a: n
+檔 t ɔ: ŋ
+檢 k i: m
+檬 m ʊ ŋ
+檯 tʰ ɔ:i
+檳 p ɐ n
+檸 l ɪ ŋ
+檸 n ɪ ŋ
+檻 l a: m
+檻 h a: m
+櫃 kʷ ɐi
+櫈 t ɐ ŋ
+櫚 l ɵy
+櫳 l ʊ ŋ
+櫸 k ɵy
+櫻 j ɪ ŋ
+欄 l a: n
+權 kʰ y: n
+欖 l a: m
+欠 h i: m
+次 tsʰ i:
+欣 j ɐ n
+欲 j ʊ k
+欺 h ei
+欽 j ɐ m
+款 f u: n
+歇 h i: t
+歉 h i: m
+歉 h i: p
+歌 k ɔ:
+歎 tʰ a: n
+歐 ɐu
+歐 ŋ ɐu
+歛 l i: m
+歡 f u: n
+止 ts i:
+正 ts ɪ ŋ
+正 ts ɛ: ŋ
+此 tsʰ i:
+步 p ou
+武 m ou
+歧 kʰ ei
+歪 w a:i
+歪 m ɛ:
+歲 s ɵy
+歷 l ɪ k
+歸 kʷ ɐi
+歹 a: t
+歹 t a:i
+死 s i:
+死 s ei
+殄 tsʰ ɐ n
+殄 tʰ i: n
+殆 t ɔ:i
+殆 tʰ ɔ:i
+殊 s y:
+殖 ts ɪ k
+殘 tsʰ a: n
+殮 l i: m
+殯 p ɐ n
+段 t y: n
+殷 j ɐ n
+殷 j i: n
+殺 s a:i
+殺 s a: t
+殼 h ɔ: k
+殿 t i: n
+毀 w ɐi
+毁 w ɐi
+毅 ŋ ɐi
+毋 m ou
+母 m ou
+每 m u:i
+毒 t ʊ k
+毓 j ʊ k
+比 p ei
+比 pʰ ei
+毛 m ou
+毡 ts i: n
+毫 h ou
+氈 ts i: n
+氏 ts i:
+氏 s i:
+民 m ɐ n
+氓 m ɔ: ŋ
+氓 m a: ŋ
+氓 m ɐ n
+氛 f ɐ n
+氣 h ei
+氧 j œ: ŋ
+氯 l ʊ k
+水 s ɵy
+永 w ɪ ŋ
+氹 tʰ ɐ m
+汀 tʰ ɪ ŋ
+汀 t ɪ ŋ
+汁 ts ɐ p
+求 kʰ ɐu
+汕 s a: n
+汗 h ɔ: n
+汗 h ɔ: ŋ
+汝 j y:
+江 k ɔ: ŋ
+池 tsʰ i:
+污 w u:
+汪 w ɔ: ŋ
+汰 tʰ a:i
+汲 kʰ ɐ p
+汶 m ɐ n
+決 kʰ y: t
+汽 h ei
+沃 j ʊ k
+沈 s ɐ m
+沈 tsʰ ɐ m
+沉 ts ɐ m
+沉 tsʰ ɐ m
+沊 t ɐ m
+沐 m ʊ k
+沒 m u: t
+沓 t a: p
+沖 tsʰ ʊ ŋ
+沙 s a:
+沛 pʰ u:i
+沫 m u: t
+沮 ts ɵy
+沱 tʰ ɔ:
+河 h ɔ:
+沸 f ɐi
+油 j ɐu
+治 ts i:
+治 tsʰ i:
+沽 k u:
+沾 ts i: m
+沿 j y: n
+況 f ɔ: ŋ
+泄 s i: t
+泄 j ɐi
+泉 tsʰ y: n
+泊 pʰ a: k
+泊 p ɔ: k
+泌 p ɐ t
+泌 p ei
+泓 w ɐ ŋ
+法 f a: t
+泛 f a: n
+泡 pʰ ou
+泡 pʰ a:u
+泡 pʰ ɔ: k
+波 p ɔ:
+泣 j ɐ p
+泥 n ɐi
+泥 l ɐi
+泥 n ei
+注 ts y:
+泮 pʰ u: n
+泰 tʰ a:i
+泱 j œ: ŋ
+泳 w ɪ ŋ
+洋 j œ: ŋ
+洗 s ɐi
+洛 l ɔ: k
+洞 t ʊ ŋ
+津 ts ɵ n
+洩 s i: t
+洩 j ɐi
+洪 h ʊ ŋ
+洱 j i:
+洲 ts ɐu
+洶 h ʊ ŋ
+活 w u: t
+洽 ɐ p
+洽 h a: p
+洽 h ɐ p
+派 pʰ a:i
+流 l ɐu
+浙 ts i: t
+浚 ts ɵ n
+浣 w u: n
+浦 pʰ ou
+浩 h ou
+浪 l ɔ: ŋ
+浮 pʰ ou
+浮 f ɐu
+浴 j ʊ k
+海 h ɔ:i
+浸 ts ɐ m
+涂 tʰ ou
+消 s i:u
+涉 s i: p
+涌 j ʊ ŋ
+涌 tsʰ ʊ ŋ
+涕 tʰ ɐi
+涯 ŋ a:i
+液 j ɐ t
+液 j ɪ k
+涵 h a: m
+涷 t ʊ ŋ
+涼 l œ: ŋ
+淆 ŋ a:u
+淋 l ɐ m
+淒 tsʰ ɐi
+淘 tʰ ou
+淚 l ɵy
+淡 tʰ a: m
+淡 t a: m
+淥 l ʊ k
+淨 ts ɛ: ŋ
+淨 ts ɪ ŋ
+淩 l ɪ ŋ
+淪 l ɵ n
+淫 j ɐ m
+淮 w a:i
+深 s ɐ m
+混 w ɐ n
+淸 tsʰ ɪ ŋ
+淺 tsʰ i: n
+添 tʰ i: m
+清 tsʰ ɪ ŋ
+清 tsʰ ɛ: ŋ
+減 k a: m
+渝 j y:
+渠 kʰ ɵy
+渡 t ou
+渣 ts a:
+渦 w ɔ:
+渦 kʷ ɔ:
+温 w ɐ n
+測 tsʰ ɐ k
+測 tsʰ a: k
+渭 w ɐi
+港 k ɔ: ŋ
+渴 h ɔ: t
+游 j ɐu
+渺 m i:u
+渾 w ɐ n
+湃 p a:i
+湃 pʰ a:i
+湊 tsʰ ɐu
+湖 w u:
+湘 s œ: ŋ
+湛 t a: m
+湛 ts a: m
+湧 j ʊ ŋ
+湯 s œ: ŋ
+湯 tʰ ɔ: ŋ
+溋 j i: n
+溏 tʰ ɔ: ŋ
+源 j y: n
+準 ts ɵ n
+溜 l ɐu
+溜 l i:u
+溝 k ɐu
+溝 kʰ ɐu
+溢 j ɐ t
+溥 pʰ ou
+溪 kʰ ɐi
+溫 w ɐ n
+溯 s ou
+溶 j ʊ ŋ
+溺 n ɪ k
+溺 n i:u
+滂 pʰ ɔ: ŋ
+滄 tsʰ ɔ: ŋ
+滅 m i: t
+滋 ts i:
+滌 t ɪ k
+滑 kʷ ɐ t
+滑 w a: t
+滔 tʰ ou
+滘 k a:u
+滙 w u:i
+滯 ts ɐi
+滲 s ɐ m
+滴 t ɪ k
+滷 l ou
+滸 w u:
+滾 kʷʰ ɐ n
+滾 kʷ ɐ n
+滿 m u: n
+漁 j y:
+漂 pʰ i:u
+漆 tsʰ ɐ t
+漉 l ʊ k
+漏 l ɐu
+漓 l ei
+演 j i: n
+漚 ŋ ɐu
+漚 ɐu
+漠 m ɔ: k
+漢 h ɔ: n
+漫 m a: n
+漬 ts i:
+漬 ts ɪ k
+漱 s ɐu
+漱 s ou
+漲 ts œ: ŋ
+漸 ts i: m
+漾 j œ: ŋ
+漿 ts œ: ŋ
+潑 pʰ u: t
+潔 k i: t
+潘 pʰ u: n
+潛 tsʰ i: m
+潤 j ɵ n
+潦 l i:u
+潦 l ou
+潭 tʰ a: m
+潮 tsʰ i:u
+潰 kʰ u:i
+潲 s a:u
+潲 s ɐu
+潷 p ɐ t
+潷 p ei
+潺 s a: n
+澀 s ɐ p
+澀 s a: p
+澀 k i: p
+澄 t ɐ ŋ
+澄 tsʰ ɪ ŋ
+澍 s y:
+澎 pʰ a: ŋ
+澡 tsʰ ou
+澡 ts ou
+澤 ts a: k
+澩 h ɔ: k
+澱 t i: n
+澳 ou
+澳 j ʊ k
+激 k ɪ k
+濁 ts ʊ k
+濃 j ʊ ŋ
+濃 n ʊ ŋ
+濕 s ɐ p
+濛 m ʊ ŋ
+濟 ts ɐi
+濠 h ou
+濤 tʰ ou
+濫 l a: m
+濱 p ɐ n
+濺 ts i: n
+濾 l ɵy
+瀉 s ɛ:
+瀏 l ɐu
+瀑 p ʊ k
+瀚 h ɔ: n
+瀝 l ɪ k
+瀟 s i:u
+瀨 l a:i
+瀾 l a: n
+灌 k u: n
+灑 s a:
+灘 tʰ a: n
+灣 w a: n
+火 f ɔ:
+灰 f u:i
+灶 ts ou
+灸 k ɐu
+灼 ts œ: k
+灼 tsʰ œ: k
+災 ts ɔ:i
+炅 kʷ ɪ ŋ
+炅 kʷ ɐi
+炆 m ɐ n
+炊 tsʰ ɵy
+炎 j i: m
+炒 tsʰ a:u
+炕 kʰ ɔ: ŋ
+炕 h ɔ: ŋ
+炙 ts ɛ: k
+炙 ts ɪ k
+炫 j y: n
+炭 tʰ a: n
+炮 p a:u
+炮 pʰ a:u
+炳 p ɪ ŋ
+炸 ts a:
+為 w ɐi
+烈 l i: t
+烏 w u:
+烘 h ʊ ŋ
+烘 h ɔ: ŋ
+烙 l ɔ: k
+烚 s a: p
+烚 h ɐ p
+烟 j i: n
+烤 h a:u
+烹 pʰ a: ŋ
+烽 f ʊ ŋ
+焉 j i: n
+焗 k ʊ k
+焙 p u:i
+焚 f ɐ n
+無 m ou
+焦 ts i:u
+然 j i: n
+煉 l i: n
+煌 w ɔ: ŋ
+煎 ts i: n
+煖 n y: n
+煖 h y: n
+煙 j i: n
+煞 s a: t
+煤 m u:i
+照 ts i:u
+煨 w u:i
+煩 f a: n
+煮 ts y:
+煲 p ou
+煽 s i: n
+熄 s ɪ k
+熊 h ʊ ŋ
+熒 j ɪ ŋ
+熔 j ʊ ŋ
+熙 h ei
+熟 s ʊ k
+熠 j ɐ p
+熠 s a: p
+熠 s a: p s ʊ k m ɐi
+熨 tʰ ɔ: ŋ
+熨 w ɐi
+熨 w ɐ n
+熨 w ɐ t
+熬 ŋ ou
+熱 j i: t
+熾 tsʰ i:
+燃 j i: n
+燈 t ɐ ŋ
+燉 t ɵ n
+燉 t ɐ n
+燎 l i:u
+燒 s i:u
+燕 j i: n
+燙 tʰ ɔ: ŋ
+燜 m u: n
+營 j ɪ ŋ
+燥 tsʰ ou
+燦 tsʰ a: n
+燭 ts ʊ k
+燴 w u:i
+燶 n ʊ ŋ
+燶 l ʊ ŋ
+爆 p a:u
+爐 l ou
+爛 l a: n
+爪 ts a:u
+爬 pʰ a:
+爭 tsʰ a: ŋ
+爭 ts a: ŋ
+爭 ts ɐ ŋ
+爲 w ɐi
+爵 ts œ: k
+父 f u:
+爸 p a:
+爹 t ɛ:
+爺 j ɛ:
+爽 s ɔ: ŋ
+爾 j i:
+牀 tsʰ ɔ: ŋ
+牆 tsʰ œ: ŋ
+片 pʰ i: n
+版 p a: n
+牌 pʰ a:i
+牘 t ʊ k
+牙 a:
+牙 ŋ a:
+牛 ŋ ɐu
+牡 m a:u
+牡 m ɐu
+牢 l ou
+牧 m ʊ k
+物 m ɐ t
+牯 k u:
+牲 s ɐ ŋ
+牲 s a: ŋ
+特 t ɐ k
+牽 h i: n
+犀 s ɐi
+犁 l ɐi
+犢 t ʊ k
+犧 h ei
+犬 h y: n
+犯 f a: n
+狀 ts ɔ: ŋ
+狂 kʰ ɔ: ŋ
+狂 kʷʰ ɔ: ŋ
+狄 t ɪ k
+狐 w u:
+狗 k ɐu
+狙 ts ɵy
+狠 h ɐ n
+狡 k a:u
+狩 s ɐu
+狸 l ei
+狹 k i: p
+狹 h a: p
+狼 l ɔ: ŋ
+猄 k ɪ ŋ
+猖 tsʰ œ: ŋ
+猛 m a: ŋ
+猜 tsʰ a:i
+猥 w ɐi
+猥 w u:i
+猩 s ɪ ŋ
+猬 w a: n
+猴 h ɐu
+猶 j ɐu
+猾 w a: t
+猿 j y: n
+獄 j ʊ k
+獅 s i:
+獎 ts œ: ŋ
+獠 l ou
+獠 l i:u
+獨 t ʊ k
+獲 w ɔ: k
+獲 w a:i
+獵 l i: p
+獷 kʷ ɔ: ŋ
+獸 s ɐu
+獻 h i: n
+玄 j y: n
+率 l ɵ t
+率 s ɵ t
+玉 j ʊ k
+王 w ɔ: ŋ
+玟 m ɐ n
+玩 w u: n
+玩 w a: n
+玫 m u:i
+玲 l ɪ ŋ
+玻 p ɔ:
+珀 pʰ a: k
+珊 s a: n
+珍 ts ɐ n
+珏 f ɐ t
+珒 tsʰ a: p
+珠 ts y:
+班 p a: n
+現 j i: n
+球 kʰ ɐu
+理 l ei
+琉 l ɐu
+琚 k ɵy
+琛 s ɐ m
+琦 kʰ ei
+琪 kʰ ei
+琳 l ɐ m
+琴 kʰ ɐ m
+琵 pʰ ei
+琶 pʰ a:
+瑆 s ɪ ŋ
+瑋 w ɐi
+瑕 h a:
+瑙 n ou
+瑚 w u:
+瑛 j ɪ ŋ
+瑜 j y:
+瑞 s ɵy
+瑟 s ɐ t
+瑤 j i:u
+瑧 ts ɵy
+瑩 j ɪ ŋ
+瑪 m a:
+瑰 kʷ ɐi
+璀 tsʰ ɵy
+璃 l ei
+璇 s y: n
+璈 ŋ ou
+璉 l i: n
+璐 l ou
+璟 k ɪ ŋ
+璧 p ɪ k
+璨 tsʰ a: n
+環 w a: n
+璵 j y:
+璽 s a:i
+瓊 kʰ ɪ ŋ
+瓏 l ʊ ŋ
+瓜 kʷ a:
+瓣 p a: n
+瓣 f a: n
+瓦 ŋ a:
+瓶 pʰ ɛ: ŋ
+瓶 pʰ ɪ ŋ
+甘 k ɐ m
+甚 s ɐ p
+甚 s ɐ m
+甜 tʰ i: m
+生 s ɐ ŋ
+生 s a: ŋ
+產 tsʰ a: n
+甥 s ɐ ŋ
+甥 s a: ŋ
+用 j ʊ ŋ
+甩 l ɐ t
+甫 pʰ ou
+甫 f u:
+田 tʰ i: n
+由 j ɐu
+甲 k a: p
+申 s ɐ n
+甴 k a: t
+甴 ts a: t
+男 n a: m
+甸 t i: n
+畀 p ei
+畋 tʰ i: n
+界 k a:i
+畏 w ɐi
+畐 f u:
+畔 p u: n
+留 l ɐu
+畜 tsʰ ʊ k
+畝 m ɐu
+畢 p ɐ t
+略 l œ: k
+番 pʰ u: n
+番 f a: n
+畫 w a:
+畫 w a: k
+異 j i:
+當 t ɔ: ŋ
+畿 k ei
+疆 k œ: ŋ
+疇 tsʰ ɐu
+疊 t a: p
+疊 t i: p
+疏 s ɔ:
+疑 j i:
+疚 k ɐu
+疤 p a:
+疫 j ɪ k
+疲 pʰ ei
+疵 tsʰ i:
+疸 tʰ a: n
+疹 tsʰ ɐ n
+疹 ts ɐ n
+疼 tʰ ɐ ŋ
+疼 tʰ ʊ ŋ
+疾 ts ɐ t
+病 p ɪ ŋ
+病 p ɛ: ŋ
+症 ts ɪ ŋ
+痕 h ɐ n
+痘 t ɐu
+痛 tʰ ʊ ŋ
+痠 s y: n
+痢 l ei
+痧 s a:
+痰 tʰ a: m
+痱 f ɐi
+痱 f ei
+痴 tsʰ i:
+痹 p ei
+痺 p ei
+痾 ŋ ɔ:
+痾 ɔ:
+瘀 j y:
+瘁 s ɵy
+瘋 f ʊ ŋ
+瘌 l a: t
+瘓 w u: n
+瘟 w ɐ n
+瘡 tsʰ ɔ: ŋ
+瘦 s ɐu
+瘴 ts œ: ŋ
+療 l i:u
+癆 l ou
+癌 a: m
+癌 ŋ a: m
+癖 pʰ ɪ k
+癡 tsʰ i:
+癢 j œ: ŋ
+癩 l a:i
+癮 j ɐ n
+癱 tʰ a: n
+癲 t i: n
+登 t ɐ ŋ
+發 f a: t
+白 p a: k
+百 p a: k
+皂 ts ou
+的 t i:
+的 t ɪ k
+皆 k a:i
+皇 w ɔ: ŋ
+皓 k ou
+皓 h ou
+皚 ŋ ɔ:i
+皚 j i:
+皮 pʰ ei
+皺 ts ɐu
+盃 p u:i
+盅 ts ʊ ŋ
+盆 pʰ u: n
+盈 j ɪ ŋ
+益 j ɪ k
+盏 w ɐ n
+盒 h ɐ p
+盒 h a: p
+盔 kʷʰ ɐi
+盛 s ɪ ŋ
+盜 t ou
+盞 ts a: n
+盟 m ɐ ŋ
+盡 ts ɵ n
+監 k a: m
+盤 pʰ u: n
+盧 l ou
+盪 t ɔ: ŋ
+目 m ʊ k
+盲 m a: ŋ
+直 ts ɪ k
+相 s œ: ŋ
+盼 pʰ a: n
+盾 tʰ ɵ n
+盾 s ɵ n
+省 s ɪ ŋ
+省 s a: ŋ
+眉 m ei
+看 h ɔ: n
+眞 ts ɐ n
+真 ts ɐ n
+眠 m i: n
+眨 ts a: p
+眨 ts a: m
+眯 m ei
+眶 h ɔ: ŋ
+眶 kʷʰ a: ŋ
+眷 k y: n
+眸 m ɐu
+眼 a: n
+眼 ŋ a: n
+眾 ts ʊ ŋ
+着 ts œ: k
+睄 s a:u
+睄 tsʰ i:u
+睇 tʰ ɐi
+睏 kʷʰ ɐ n
+睛 ts ɪ ŋ
+睜 ts a: ŋ
+睜 ts ɐ ŋ
+睡 s ɵy
+督 t ʊ k
+睥 pʰ ɐi
+睦 m ʊ k
+睨 ŋ ɐi
+睬 tsʰ ɔ:i
+睹 t ou
+睺 h ɐu
+睿 j ɵy
+瞄 m i:u
+瞅 tsʰ ɐu
+瞌 h ɐ p
+瞓 f ɐ n
+瞞 m u: n
+瞬 s ɵ n
+瞭 l i:u
+矇 m ʊ ŋ
+矛 m a:u
+矜 kʷ a: n
+矜 kʷ ɐ n
+矜 k ɪ ŋ
+矣 j i:
+知 ts i:
+矩 k ɵy
+短 t y: n
+矮 ɐi
+矮 ŋ ɐi
+矮 a:i
+石 t a: m
+石 s ɛ: k
+砂 s a:
+砌 tsʰ ɐi
+砍 h ɐ m
+砒 pʰ ei
+研 ŋ a: n
+研 j i: n
+砰 pʰ ɪ ŋ
+砲 pʰ a:u
+砲 p a:u
+破 pʰ ɔ:
+砵 p u: t
+砸 ts a: p
+硤 k i: p
+硤 h a: p
+硬 ŋ a: ŋ
+碇 t ɪ ŋ
+碇 t ɛ: ŋ
+碉 t i:u
+碌 l ʊ k
+碎 s ɵy
+碑 p ei
+碗 w u: n
+碘 t i: n
+碟 t i: p
+碧 p ɪ k
+碰 pʰ ʊ ŋ
+確 kʰ ɔ: k
+碼 m a:
+磁 tsʰ i:
+磅 p ɔ: ŋ
+磊 l ɵy
+磐 pʰ u: n
+磚 ts y: n
+磡 h ɐ m
+磨 m ɔ:
+磯 k ei
+礎 tsʰ ɔ:
+礙 ŋ ɔ:i
+礦 kʷ ɔ: ŋ
+礦 kʷʰ ɔ: ŋ
+礫 l ɪ k
+示 s i:
+社 s ɛ:
+祁 kʰ ei
+祈 kʰ ei
+祐 j ɐu
+祕 p ei
+祖 ts ou
+祝 ts ʊ k
+神 s ɐ n
+祟 s ɵy
+祠 tsʰ i:
+祥 tsʰ œ: ŋ
+票 pʰ i:u
+票 p i:u
+祭 ts ɐi
+祿 l ʊ k
+禁 k ɐ m
+禁 kʰ ɐ m
+禍 w ɔ:
+福 f ʊ k
+禡 m a:
+禧 h ei
+禪 s i: m
+禪 s i: n
+禮 l ɐi
+禱 t ou
+禱 tʰ ou
+禺 j y:
+禽 kʰ ɐ m
+禾 w ɔ:
+秀 s ɐu
+私 s i:
+秅 tsʰ a:
+秉 p ɪ ŋ
+秋 tsʰ ɐu
+科 f ɔ:
+秒 m i:u
+秘 p i: t
+秘 p ei
+租 ts ou
+秤 tsʰ ɪ ŋ
+秦 tsʰ ɵ n
+秧 j œ: ŋ
+秩 t i: t
+移 j i:
+稀 h ei
+稅 s ɵy
+稈 k ɔ: n
+程 tsʰ ɪ ŋ
+稍 s a:u
+稔 n ɐ m
+稚 ts i:
+稟 l ɐ m
+稟 p ɐ n
+稠 tsʰ ɐu
+種 ts ʊ ŋ
+稱 tsʰ ɪ ŋ
+稱 tsʰ ɐ n
+稻 t ou
+稿 k ou
+穀 k ʊ k
+穌 s ou
+積 ts ɪ k
+穎 w ɪ ŋ
+穏 w ɐ n
+穗 s ɵy
+穢 w ɐi
+穩 w ɐ n
+穫 w ɔ: k
+穴 j y: t
+究 k ɐu
+空 h ʊ ŋ
+穿 tsʰ y: n
+突 t ɐ t
+窄 ts a: k
+窒 ts ɐ t
+窗 tsʰ œ: ŋ
+窠 f ɔ:
+窠 w ɔ:
+窩 w ɔ:
+窮 kʰ ʊ ŋ
+窰 j i:u
+窺 kʷʰ ɐi
+窿 l ʊ ŋ
+竄 tsʰ y: n
+竅 kʰ i:u
+竅 h i:u
+竇 t ɐu
+竊 s i: t
+立 l a: p
+立 l ɐ p
+站 ts a: m
+竟 k ɪ ŋ
+章 ts œ: ŋ
+童 tʰ ʊ ŋ
+竭 k i: t
+竭 kʰ i: t
+端 t y: n
+競 k ɪ ŋ
+竹 ts ʊ k
+竺 ts ʊ k
+笆 p a:
+笈 kʰ ɐ p
+笏 f ɐ t
+笑 s i:u
+笙 s ɐ ŋ
+笙 s a: ŋ
+笛 t ɛ: k
+笠 l ɐ p
+符 f u:
+笨 p ɐ n
+笪 t a: t
+第 t ɐi
+筆 p ɐ t
+等 t ɐ ŋ
+筋 k ɐ n
+筍 s ɵ n
+筏 f ɐ t
+筒 tʰ ʊ ŋ
+答 t a: p
+策 tsʰ a: k
+筲 s a:u
+筵 j i: n
+筷 f a:i
+箇 k ɔ:
+箋 ts i: n
+箍 kʰ u:
+箍 f u:
+箔 p ɔ: k
+箕 k ei
+算 s y: n
+管 k u: n
+箭 ts i: n
+箱 s œ: ŋ
+箴 ts ɐ m
+節 ts i: t
+範 f a: n
+篇 pʰ i: n
+築 ts ʊ k
+篋 h a: p
+篙 k ou
+篡 s a: n
+篤 t ʊ k
+篳 p ɐ t
+篼 t ɐu
+簁 s i:
+簍 l ɐu
+簡 k a: n
+簪 ts a: m
+簫 s i:u
+簷 s i: m
+簷 j i: m
+簷 j ɐ m
+簽 tsʰ i: m
+簾 l i: m
+簿 p ou
+籃 l a: m
+籌 tsʰ ɐu
+籍 ts ɪ k
+籐 tʰ ɐ ŋ
+籠 l ʊ ŋ
+籤 tsʰ i: m
+籬 l ei
+籮 l ɔ:
+籲 j œ: k
+籲 j y:
+米 m ɐi
+籽 ts i:
+粉 f ɐ n
+粒 n ɐ p
+粒 l ɐ p
+粗 tsʰ ou
+粘 n i: m
+粘 ts i: m
+粟 s ʊ k
+粤 j y: t
+粥 ts ʊ k
+粱 l œ: ŋ
+粳 k ɐ ŋ
+粵 j y: t
+粹 s ɵy
+粼 l ɵ n
+粽 ts ʊ ŋ
+精 ts ɛ: ŋ
+精 ts ɪ ŋ
+粿 kʷ ɔ:
+糉 ts ʊ ŋ
+糊 w u:
+糍 tsʰ i:
+糕 k ou
+糖 tʰ ɔ: ŋ
+糜 m ei
+糞 f ɐ n
+糟 ts ou
+糧 l œ: ŋ
+糬 tsʰ ɐu
+糯 n ɔ:
+糰 tʰ y: n
+糴 t ɛ: k
+系 h ɐi
+糾 t ɐu
+糾 k ɐu
+紀 k ei
+約 j œ: k
+紅 h ʊ ŋ
+紅 k ʊ ŋ
+紋 m ɐ n
+納 n a: p
+紐 n ɐu
+紐 l ɐu
+紓 s y:
+純 ts ɵ n
+純 s ɵ n
+紗 s a:
+紙 ts i:
+級 kʰ ɐ p
+紛 f ɐ n
+素 s ou
+紡 f ɔ: ŋ
+索 s ʊ k
+索 s a: k
+索 s ɔ: k
+紥 ts a: t
+紫 ts i:
+紮 ts a: t
+累 l ɵy
+細 s ɐi
+紳 s ɐ n
+紹 s i:u
+終 ts ʊ ŋ
+組 ts ou
+結 k i: t
+結 l i: t
+絕 ts y: t
+絞 k a:u
+絡 l ɔ: k
+給 kʰ ɐ p
+絨 j ʊ ŋ
+絮 s ɵy
+統 tʰ ʊ ŋ
+絲 s i:
+絶 ts i: t
+綁 p ɔ: ŋ
+經 k ɪ ŋ
+綜 ts ʊ ŋ
+綠 l ʊ k
+綫 s i: n
+維 w ɐi
+綯 tʰ ou
+綱 k ɔ: ŋ
+網 m ɔ: ŋ
+綵 tsʰ ɔ:i
+綽 tsʰ œ: k
+綿 m i: n
+緊 k ɐ n
+緒 s ɵy
+緘 k a: m
+緘 ts i: n
+緙 kʷʰ a: k
+緙 kʰ a: k
+線 s i: n
+緝 tsʰ ɐ p
+緣 j y: n
+編 pʰ i: n
+緩 w u: n
+緬 m i: n
+緲 m i:u
+練 l i: n
+緻 ts i:
+縉 ts ɵ n
+縊 ɐi
+縛 f ɔ: k
+縛 p ɔ: k
+縣 j y: n
+縫 f ʊ ŋ
+縮 s ʊ k
+縱 ts ʊ ŋ
+縷 l ɐu
+縷 l ɵy
+縹 pʰ i:u
+總 ts ʊ ŋ
+績 ts ɛ: k
+績 ts ɪ k
+繁 f a: n
+織 ts ɪ k
+繙 f a: n
+繚 l i:u
+繞 j i:u
+繡 s ɐu
+繩 s ɪ ŋ
+繪 kʰ u:i
+繫 h ɐi
+繳 k i:u
+繳 ts œ: k
+繹 j ɪ k
+繼 k ɐi
+續 ts ʊ k
+纏 tsʰ i: n
+纏 ts i: n
+纔 tsʰ ɔ:i
+纖 tsʰ i: m
+纜 l a: m
+细 h ɐi
+绍 s i:u
+络 l ɔ: k
+缸 k ɔ: ŋ
+缺 kʰ y: t
+缽 p u: t
+罄 h ɪ ŋ
+罅 l a:
+罐 k u: n
+网 w ɔ: ŋ
+罔 m ɔ: ŋ
+罕 h ɔ: n
+罟 k u:
+罩 ts a:u
+罪 ts ɵy
+置 ts i:
+罰 f ɐ t
+署 tsʰ y:
+署 s y:
+罵 m a:
+罷 p a:
+罷 pʰ ei
+罹 l ei
+羅 l ɔ:
+羈 k ei
+羊 j œ: ŋ
+羌 k œ: ŋ
+美 m ei
+羔 k ou
+羞 s ɐu
+羣 kʷʰ ɐ n
+群 kʷʰ ɐ n
+羨 s i: n
+義 j i:
+羲 h ei
+羹 k ɐ ŋ
+羽 j y:
+翁 j ʊ ŋ
+翅 tsʰ i:
+翌 j ɪ k
+習 ts a: p
+翔 tsʰ œ: ŋ
+翕 j ɐ p
+翠 tsʰ ɵy
+翡 f ei
+翩 pʰ i: n
+翰 h ɔ: n
+翱 ŋ ou
+翹 kʰ i:u
+翻 f a: n
+翼 j ɪ k
+耀 j i:u
+老 l ou
+考 h a:u
+者 ts ɛ:
+而 j i:
+耍 s a:
+耐 l ɔ:i
+耐 n ɔ:i
+耕 k a: ŋ
+耕 k ɐ ŋ
+耗 h ou
+耘 w ɐ n
+耳 j i:
+耶 j ɛ:
+耷 t a: p
+耷 t ɐ p
+耿 k ɐ ŋ
+聆 l ɪ ŋ
+聊 l i:u
+聖 s ɪ ŋ
+聘 pʰ ɪ ŋ
+聚 ts ɵy
+聞 m ɐ n
+聯 l y: n
+聰 tsʰ ʊ ŋ
+聲 s ɪ ŋ
+聲 s ɛ: ŋ
+聳 s ʊ ŋ
+聴 tʰ ɪ ŋ
+聶 n i: p
+職 ts ɪ k
+聼 tʰ ɪ ŋ
+聽 tʰ ɪ ŋ
+聽 tʰ ɛ: ŋ
+聾 l ʊ ŋ
+肅 s ʊ k
+肆 s i:
+肆 s ei
+肇 s i:u
+肉 j ʊ k
+肋 l ɐ k
+肋 l a: k
+肌 k ei
+肓 f ɔ: ŋ
+肖 tsʰ i:u
+肘 ts ɐu
+肘 ts a:u
+肚 tʰ ou
+肛 k ɔ: ŋ
+肝 k ɔ: n
+股 k u:
+肢 ts i:
+肥 f ei
+肨 pʰ ɔ: ŋ
+肩 k i: n
+肯 h ɐ ŋ
+肯 h ɔ:i
+育 j ʊ k
+肴 ŋ a:u
+肴 a:u
+肺 f ɐi
+胃 w ɐi
+背 p u:i
+胎 tʰ ɔ:i
+胖 pʰ u: n
+胖 p u: n
+胚 pʰ u:i
+胞 p a:u
+胡 w u:
+胭 j i: n
+胱 kʷ ɔ: ŋ
+胸 h ʊ ŋ
+胺 ŋ ɔ: n
+胺 ɔ: n
+能 n ɐ ŋ
+脂 ts i:
+脅 h i: p
+脆 tsʰ ɵy
+脈 m ɐ k
+脊 ts ɛ: k
+脊 ts ɪ k
+脛 k ɪ ŋ
+脛 h ɪ ŋ
+脫 tʰ y: t
+脱 tʰ y: t
+脷 l ei
+脹 ts œ: ŋ
+脾 pʰ ei
+腋 j ɐ t
+腋 j ɪ k
+腋 j i: t
+腍 l ɐ m
+腍 j ɐ m
+腍 n ɐ m
+腎 s ɐ n
+腐 f u:
+腔 h ɔ: ŋ
+腕 w u: n
+腥 s ɪ ŋ
+腥 s ɛ: ŋ
+腦 n ou
+腩 l a: m
+腩 n a: m
+腫 ts ʊ ŋ
+腰 j i:u
+腳 k œ: k
+腸 tsʰ œ: ŋ
+腹 f ʊ k
+腺 s i: n
+腿 tʰ ɵy
+膀 p ɔ: ŋ
+膀 pʰ ɔ: ŋ
+膊 p ɔ: k
+膏 k ou
+膚 f u:
+膜 m ɔ: k
+膜 m ou
+膝 s ɐ t
+膠 k a:u
+膨 pʰ a: ŋ
+膩 n ɐu
+膩 n ei
+膳 s i: n
+膶 j ɵ n
+膺 j ɪ ŋ
+膽 t a: m
+臂 p ei
+臉 l i: m
+臘 l a: p
+臘 l i: p
+臟 ts ɔ: ŋ
+臣 s ɐ n
+臨 l ɐ m
+自 ts i:
+臭 tsʰ ɐu
+至 ts i:
+致 ts i:
+臺 tʰ ɔ:i
+臻 ts ɵ n
+臼 kʰ ɐu
+舂 ts ʊ ŋ
+舅 kʰ ɐu
+與 j y:
+興 h ɪ ŋ
+舉 k ɵy
+舊 k ɐu
+舌 s i: t
+舍 s ɛ:
+舐 s a:i
+舐 l a:i
+舐 l ɛ: m
+舐 l i: m
+舒 s y:
+舔 tʰ i: m
+舖 pʰ ou
+舞 m ou
+舟 ts ɐu
+舢 s a: n
+舨 p a: n
+航 h ɔ: ŋ
+般 p ɔ:
+般 p u: n
+舵 tʰ ɔ:
+舶 p a: k
+舶 pʰ a: k
+舶 p ɔ: k
+船 s y: n
+艇 tʰ ɛ: ŋ
+艇 tʰ ɪ ŋ
+艙 tsʰ ɔ: ŋ
+艦 l a: m
+良 l œ: ŋ
+艱 k a: n
+色 s ɪ k
+艷 j i: m
+艾 ŋ a:i
+节 k i: t
+芋 w u:
+芒 m ɔ: ŋ
+芙 f u:
+芝 ts i:
+芥 k a:i
+芫 j y: n
+芬 f ɐ n
+芭 p a:
+芯 s ɐ m
+花 f a:
+芳 f ɔ: ŋ
+芹 kʰ ɐ n
+芽 ŋ a:
+苑 j y: n
+苔 tʰ ɔ:i
+苗 m i:u
+苛 h ɔ:
+苟 k ɐu
+苣 k ɵy
+若 j œ: k
+若 j ɛ:
+苦 f u:
+英 j ɪ ŋ
+茂 m ɐu
+范 f a: n
+茄 kʰ ɛ:
+茄 k a:
+茅 m a:u
+茜 s i: n
+茜 s ɐi
+茨 tsʰ i:
+茫 m ɔ: ŋ
+茱 ts y:
+茲 ts i:
+茲 tsʰ i:
+茴 w u:i
+茵 j ɐ n
+茶 tsʰ a:
+茸 j ʊ ŋ
+茹 j y:
+荃 tsʰ y: n
+荇 h ɐ ŋ
+草 tsʰ ou
+荊 k ɪ ŋ
+荒 f ɔ: ŋ
+荔 l ɐi
+荷 h ɔ:
+荼 tʰ ou
+莆 pʰ ou
+莆 f u:
+莉 l ei
+莊 ts ɔ: ŋ
+莎 s ɔ:
+莎 s a:
+莓 m u:i
+莖 h ɐ ŋ
+莖 k ɪ ŋ
+莞 w u: n
+莞 k u: n
+莫 m ɔ: k
+莫 m ou
+莽 m ɔ: ŋ
+菀 j y: n
+菁 tsʰ ɪ ŋ
+菁 ts ɪ ŋ
+菇 k u:
+菊 k ʊ k
+菌 kʷʰ ɐ n
+菓 kʷ ɔ:
+菜 tsʰ ɔ:i
+菠 p ɔ:
+菩 pʰ ou
+華 w a:
+華 f a:
+菱 l ɪ ŋ
+菲 f ei
+菴 ɐ m
+萃 s ɵy
+萄 tʰ ou
+萊 l ɔ:i
+萋 tsʰ ɐi
+萍 pʰ ɪ ŋ
+萎 w ɐi
+萬 m a: n
+萸 j y:
+萺 ts ɪ k
+落 l ɔ: k
+落 l a:i
+葆 p ou
+葉 s i: p
+葉 j i: p
+著 ts œ: k
+著 ts y:
+葛 k ɔ: t
+葡 pʰ ou
+董 t ʊ ŋ
+葫 w u:
+葬 ts ɔ: ŋ
+葳 w ɐi
+葵 kʷʰ ɐi
+蒂 t ɐi
+蒐 s ɐu
+蒙 m ʊ ŋ
+蒜 s y: n
+蒞 l ei
+蒡 p ɔ: ŋ
+蒲 pʰ ou
+蒸 ts ɪ ŋ
+蒼 tsʰ ɔ: ŋ
+蓀 s y: n
+蓄 tsʰ ʊ k
+蓆 ts ɛ: k
+蓆 ts ɪ k
+蓉 j ʊ ŋ
+蓋 k ɐ p
+蓋 h ɐ p
+蓋 k ɔ:i
+蓋 kʰ ɔ:i
+蓓 pʰ u:i
+蓓 p u:i
+蓬 pʰ ʊ ŋ
+蓬 f ʊ ŋ
+蓮 l i: n
+蓺 ŋ ɐi
+蔓 m a: n
+蔔 p a: k
+蔗 ts ɛ:
+蔚 w ɐi
+蔚 w ɐ t
+蔥 tsʰ ʊ ŋ
+蔫 j i: n
+蔬 s ɔ:
+蔭 j ɐ m
+蔵 tsʰ ɔ: ŋ
+蔻 kʰ ɐu
+蔽 p ɐi
+蕃 f a: n
+蕉 ts i:u
+蕎 kʰ i:u
+蕙 w ɐi
+蕩 t ɔ: ŋ
+蕪 m ou
+蕭 s i:u
+蕾 l ɵy
+薄 p ɔ: k
+薇 m ei
+薈 w u:i
+薈 w ɐi
+薈 kʰ u:i
+薏 j i:
+薑 k œ: ŋ
+薦 ts i: n
+薩 s a: t
+薪 s ɐ n
+薯 s y:
+薰 f ɐ n
+藉 ts ɛ:
+藉 ts ɪ k
+藍 l a: m
+藏 tsʰ ɔ: ŋ
+藏 ts ɔ: ŋ
+藐 m i:u
+藕 ŋ ɐu
+藝 ŋ ɐi
+藤 tʰ ɐ ŋ
+藥 j œ: k
+藩 f a: n
+藹 ŋ ɔ:i
+藹 ɔ:i
+藺 l ɵ n
+藻 ts ou
+蘅 h ɐ ŋ
+蘆 l ou
+蘇 s ou
+蘋 pʰ ɪ ŋ
+蘋 pʰ ɐ n
+蘑 m ɔ:
+蘭 l a: n
+蘸 ts a: m
+蘿 l ɔ:
+虎 f u:
+虐 j œ: k
+虓 h a:u
+虔 kʰ i: n
+處 s y:
+處 tsʰ y:
+虛 h ɵy
+虞 j y:
+號 h ou
+虢 kʷ ɪ k
+虧 kʷʰ ɐi
+虧 f ɐi
+虱 s ɐ t
+虹 h ʊ ŋ
+蚊 m ɐ n
+蚌 pʰ ɔ: ŋ
+蚝 h ou
+蚵 h ɔ:
+蚺 j i: m
+蚺 n a: m
+蛇 s ɛ:
+蛇 j i:
+蛋 t a: n
+蛙 w a:
+蛛 ts y:
+蛟 k a:u
+蛤 k ɐ p
+蛤 k a: p
+蛤 h a:
+蛾 ŋ ɐi
+蛾 ŋ ɔ:
+蛾 ɔ:
+蜀 s ʊ k
+蜂 f ʊ ŋ
+蜆 h i: n
+蜇 ts i: t
+蜊 l ei
+蜎 j y: n
+蜎 k y: n
+蜓 tʰ ɪ ŋ
+蜘 ts i:
+蜜 m ɐ t
+蜢 m a: ŋ
+蜥 s ɪ k
+蜴 j ɪ k
+蜻 tsʰ ɪ ŋ
+蝕 s i: t
+蝕 s ɪ k
+蝗 w ɔ: ŋ
+蝦 h a:
+蝨 s ɐ t
+蝴 w u:
+蝶 t i: p
+蝸 w ɔ:
+融 j ʊ ŋ
+螞 m a:
+螢 j ɪ ŋ
+螺 l ɔ:
+蟀 ts ɵ t
+蟀 s ɵ t
+蟆 m a:
+蟋 s ɪ k
+蟠 pʰ u: n
+蟠 f a: n
+蟬 s i: m
+蟬 s i: n
+蟲 tsʰ ʊ ŋ
+蟹 h a:i
+蟻 ŋ ɐi
+蟻 ɐi
+蠅 j ɪ ŋ
+蠔 h ou
+蠟 l a: p
+蠢 tsʰ ɵ n
+蠱 k u:
+蠶 tsʰ a: m
+蠻 m a: n
+血 h y: t
+衆 ts ʊ ŋ
+行 h a: ŋ
+行 h ɐ ŋ
+行 h ɔ: ŋ
+衍 j i: n
+衍 h i: n
+術 s ɵ t
+街 k a:i
+衙 ŋ a:
+衙 a:
+衛 w ɐi
+衝 tsʰ ʊ ŋ
+衞 w ɐi
+衡 w a: ŋ
+衡 h ɐ ŋ
+衣 j i:
+表 p i:u
+衫 s a: m
+衰 s ɵy
+衰 tsʰ ɵy
+衲 n a: p
+衷 ts ʊ ŋ
+衷 tsʰ ʊ ŋ
+衹 ts i:
+衾 kʰ ɐ m
+袁 j y: n
+袋 t ɔ:i
+袖 ts ɐu
+袪 kʰ ɵy
+被 p ei
+被 pʰ ei
+袱 f ʊ k
+裁 tsʰ ɔ:i
+裂 l i: t
+裇 s ɵ t
+裏 l ei
+裏 l ɵy
+裔 j ɵy
+裕 j y:
+裘 kʰ ɐu
+裙 kʷʰ ɐ n
+補 p ou
+裝 ts ɔ: ŋ
+裡 l ei
+裡 l ɵy
+裳 s œ: ŋ
+裴 pʰ u:i
+裸 l ɔ:
+製 ts ɐi
+複 f ʊ k
+褒 p ou
+褦 l ɐ ŋ
+褦 n ɐ ŋ
+褦 n a:i
+褦 l ɛ:
+褪 tʰ ɐ n
+褲 f u:
+褸 l ɐu
+褸 l ɵy
+褻 s i: t
+襟 kʰ ɐ m
+襟 k ɐ m
+襤 l a: m
+襪 m a: t
+襪 m ɐ t
+襯 tsʰ ɐ n
+襲 ts a: p
+西 s ɐi
+要 j i:u
+覆 f ʊ k
+覆 f ɐu
+見 j i: n
+見 k i: n
+規 kʷʰ ɐi
+覓 m ɪ k
+視 s i:
+親 tsʰ ɐ n
+覲 k ɐ n
+覺 k a:u
+覺 k ɔ: k
+覽 l a: m
+觀 k u: n
+角 k ɔ: k
+角 l ʊ k
+解 h a:i
+解 k a:i
+觴 s œ: ŋ
+觸 ts ʊ k
+觸 tsʰ ʊ k
+言 j i: n
+訂 t ɪ ŋ
+訂 t ɛ: ŋ
+計 k ɐi
+計 k ei
+訊 s ɵ n
+討 tʰ ou
+訓 f ɐ n
+訕 s a: n
+託 tʰ ɔ: k
+記 k ei
+訛 ŋ ɔ:
+訝 ŋ a:
+訟 ts ʊ ŋ
+訣 kʰ y: t
+訪 f ɔ: ŋ
+設 tsʰ i: t
+許 h ɵy
+訴 s ou
+診 tsʰ ɐ n
+診 ts ɐ n
+註 ts y:
+証 ts ɪ ŋ
+詆 t ɐi
+詏 a:u
+詏 ŋ a:u
+詐 ts a:
+評 pʰ ɪ ŋ
+詛 ts ɔ:
+詞 tsʰ i:
+詠 w ɪ ŋ
+詢 s ɵ n
+試 s i:
+詩 s i:
+詬 k ɐu
+詬 h ɐu
+詭 kʷ ɐi
+話 w a:
+該 k ɔ:i
+詳 tsʰ œ: ŋ
+詹 ts i: m
+詼 f u:i
+誃 ts i:
+誃 tsʰ i:
+誅 ts y:
+誇 kʷʰ a:
+誌 ts i:
+認 j ɪ ŋ
+認 j ɐ n
+誓 s ɐi
+誕 t a: n
+誘 j ɐu
+語 j y:
+誠 s ɪ ŋ
+誡 k a:i
+誤 ŋ
+誦 ts ʊ ŋ
+誨 f u:i
+說 s y: t
+說 j y: t
+說 s ɵy
+説 s y: t
+誰 s ɵy
+課 f ɔ:
+誼 j i:
+調 t ɛ:u
+調 tʰ i:u
+調 t i:u
+諂 tsʰ i: m
+談 tʰ a: m
+請 tsʰ ɪ ŋ
+請 tsʰ ɛ: ŋ
+諒 l œ: ŋ
+論 l ɵ n
+諗 s ɐ m
+諗 n ɐ m
+諗 l ɐ m
+諜 t i: p
+諦 t ɐi
+諧 h a:i
+諫 k a: n
+諮 ts i:
+諱 w ɐi
+諷 f ʊ ŋ
+諸 ts y:
+諺 j i: n
+諾 n ɔ: k
+謀 m ɐu
+謁 kʰ i: t
+謁 j i: t
+謂 w ɐi
+謊 f ɔ: ŋ
+謎 m ɐi
+謔 j œ: k
+謙 h i: m
+講 k ɔ: ŋ
+謝 ts ɛ:
+謢 m ɐ ŋ
+謬 m ɐu
+謹 k ɐ n
+謾 m a: n
+證 ts ɪ ŋ
+譎 kʰ y: t
+譖 ts ɐ m
+譖 tsʰ ɐ m
+識 ts i:
+識 s ɪ k
+譚 tʰ a: m
+譜 pʰ ou
+警 k ɪ ŋ
+譬 pʰ ei
+譯 j ɪ k
+議 j i:
+譴 h i: n
+護 w u:
+譽 j y:
+讀 t ʊ k
+讀 t ɐu
+變 p i: n
+讎 tsʰ ɐu
+讑 j i:u
+讓 j œ: ŋ
+讚 ts a: n
+话 w a:
+读 t ʊ k
+谷 j ʊ k
+谷 k ʊ k
+豁 kʰ u: t
+豁 k u: t
+豂 l i:u
+豆 t ɐu
+豈 h ei
+豈 h ɔ:i
+豉 s i:
+豎 s y:
+豐 f ʊ ŋ
+豚 tʰ y: n
+象 ts œ: ŋ
+豪 h ou
+豫 j y:
+豬 ts y:
+豹 pʰ a:u
+豹 p a:u
+貂 t i:u
+貌 m a:u
+貓 m a:u
+貝 p u:i
+貞 ts ɪ ŋ
+負 f u:
+財 tsʰ ɔ:i
+貢 k ʊ ŋ
+貧 pʰ ɐ n
+貨 f ɔ:
+販 f a: n
+貪 tʰ a: m
+貫 k u: n
+責 ts a: k
+貴 kʷ ɐi
+貶 p i: n
+買 m a:i
+貸 tʰ ɪ k
+貸 tʰ a:i
+費 f ɐi
+費 p ei
+貼 tʰ i: p
+貿 m ɐu
+賀 h ɔ:
+賃 j ɐ m
+賄 f u:i
+賄 kʰ u:i
+資 ts i:
+賈 k u:
+賈 k a:
+賊 tsʰ a: k
+賒 s ɛ:
+賓 p ɐ n
+賜 tsʰ i:
+賞 s œ: ŋ
+賠 pʰ u:i
+賢 j i: n
+賣 m a:i
+賤 ts i: n
+賦 f u:
+質 ts i:
+質 ts ɐ t
+賬 ts œ: ŋ
+賭 t ou
+賴 l a:i
+賺 ts a: m
+賺 ts a: n
+購 k ɐu
+購 kʰ ɐu
+賽 tsʰ ɔ:i
+贅 ts ɵy
+贈 ts ɐ ŋ
+贊 ts a: n
+贏 j ɛ: ŋ
+贏 j ɪ ŋ
+贖 s ʊ k
+贛 k ʊ ŋ
+贛 k ɐ m
+贼 ts i: t
+赤 tsʰ ɪ k
+赤 tsʰ ɛ: k
+赫 h a: k
+赫 h ɐ k
+走 ts ɐu
+赴 f u:
+起 h ei
+趁 tsʰ ɐ n
+超 tsʰ i:u
+越 j y: t
+趌 k ɐ t
+趕 k ɔ: n
+趙 ts i:u
+趟 tʰ ɔ: ŋ
+趣 tsʰ ʊ k
+趣 tsʰ ɵy
+趨 tsʰ ʊ k
+趨 tsʰ ɵy
+足 ts ɵy
+足 ts ʊ k
+趴 pʰ a:
+趷 k ɐ t
+趷 kʰ a: k
+趺 f u:
+趾 ts i:
+跋 p ɐ t
+跌 t i: t
+跑 pʰ a:u
+跛 p ɐi
+跛 p ɔ:
+跛 p ei
+距 k ɵy
+距 kʰ ɵy
+跟 k ɐ n
+跡 ts ɛ: k
+跡 ts ɪ k
+跣 s i: n
+跨 kʷʰ a:
+跪 kʷ ɐi
+路 l ou
+跳 tʰ i:u
+踎 m ɐu
+踏 t a: p
+踐 tsʰ i: n
+踐 ts i: n
+踢 tʰ ɛ: k
+踩 tsʰ ɔ:i
+踩 tsʰ a:i
+踪 ts ʊ ŋ
+踱 t ɔ: k
+踴 j ʊ ŋ
+踹 tsʰ y: n
+踹 j a:i
+踹 tsʰ a:i
+蹂 j ɐu
+蹄 tʰ ɐi
+蹆 tʰ ɐ n
+蹈 tʰ ou
+蹈 t ou
+蹋 t a: p
+蹟 ts ɪ k
+蹤 ts ʊ ŋ
+蹲 t ɵ n
+蹲 tsʰ y: n
+蹺 h i:u
+蹺 kʰ i:u
+躁 tsʰ ou
+躇 tsʰ y:
+躉 t ɐ n
+躊 tsʰ ɐu
+躋 ts ɐi
+躍 j œ: k
+躍 tʰ ɪ k
+躝 l a: n
+躪 l ɵ n
+身 s ɐ n
+身 k y: n
+躬 k ʊ ŋ
+躲 t ɔ:
+躺 tʰ ɔ: ŋ
+車 tsʰ ɛ:
+車 k ɵy
+軌 kʷ ɐi
+軍 kʷ ɐ n
+軒 h i: n
+軚 tʰ a:i
+軟 j y: n
+軼 j ɐ t
+軼 t i: t
+較 k a:u
+載 ts ɔ:i
+輊 ts i:
+輋 tsʰ ɛ:
+輔 f u:
+輕 h ɛ: ŋ
+輕 h ɪ ŋ
+輘 l ɪ ŋ
+輛 l œ: ŋ
+輝 f ɐi
+輟 ts y: t
+輩 p u:i
+輪 l ɵ n
+輯 tsʰ ɐ p
+輷 kʷ ɐ ŋ
+輸 s y:
+輻 f ʊ k
+輾 ts i: n
+輾 n i: n
+輿 j y:
+轄 h ɐ t
+轆 l ʊ k
+轉 ts y: n
+轍 tsʰ i: t
+轎 k i:u
+轔 l ɵ n
+轟 kʷ ɐ ŋ
+轡 p ei
+车 tsʰ ɛ:
+轿 k a:u
+辆 l œ: ŋ
+辛 s ɐ n
+辜 k u:
+辣 l ɐ t
+辣 l a: t
+辦 p a: n
+辨 p i: n
+辭 tsʰ i:
+辯 p i: n
+辰 s ɐ n
+辱 j ʊ k
+農 n ʊ ŋ
+迂 h ɵy
+迂 j y:
+迅 s ɵ n
+迍 ts ɵ n
+迎 j ɪ ŋ
+近 k ɐ n
+近 kʰ ɐ n
+返 f a: n
+迤 j i:
+迦 k a:
+迪 t ɪ k
+迫 p a: k
+迫 p ɪ k
+述 s ɵ t
+迴 w u:i
+迷 m ɐi
+追 ts ɵy
+迾 l a: t
+迾 l i: t
+退 tʰ ɵy
+送 s ʊ ŋ
+逃 tʰ ou
+逆 ŋ a: k
+逆 j ɪ k
+逍 s i:u
+透 tʰ ɐu
+逐 ts ʊ k
+途 tʰ ou
+逗 t ɐu
+這 ts ɛ:
+通 tʰ ʊ ŋ
+逝 s ɐi
+逞 tsʰ ɪ ŋ
+速 tsʰ ʊ k
+造 tsʰ ou
+造 ts ou
+逢 f ʊ ŋ
+連 l i: n
+週 ts ɐu
+進 ts ɵ n
+逳 j ʊ k
+逸 j ɐ t
+逹 t a: t
+逼 p ɪ k
+逾 j y:
+遁 t ɵ n
+遂 s ɵy
+遇 j y:
+遊 j ɐu
+運 w ɐ n
+遍 p i: n
+遍 pʰ i: n
+過 kʷ ɔ:
+遏 a: t
+遏 kʰ i: t
+道 t ou
+達 t a: t
+達 tʰ a: t
+違 w ɐi
+遙 j i:u
+遜 s ɵ n
+遞 t ɐi
+遠 j y: n
+遢 tʰ a: p
+遢 tʰ a: t
+遣 h i: n
+適 s ɪ k
+適 t ɪ k
+遭 ts ou
+遮 ts ɛ:
+遲 tsʰ i:
+遴 l ɵ n
+遵 ts ɵ n
+遵 ts y: n
+遷 tsʰ i: n
+選 s y: n
+遺 w ɐi
+遼 l i:u
+避 p ei
+邀 j i:u
+邁 m a:i
+還 w a: n
+還 s y: n
+邈 m ɔ: k
+邈 m i:u
+邉 p i: n
+邊 p i: n
+邋 l a: t
+邋 l a: p
+邏 l ɔ:
+邐 l ei
+邑 j ɐ p
+邢 j ɪ ŋ
+那 n ɔ:
+那 a:
+那 n a:
+邦 p ɔ: ŋ
+邨 tsʰ y: n
+邪 tsʰ ɛ:
+邪 j ɛ:
+邰 tʰ ɔ:i
+邵 s i:u
+邸 t ɐi
+郁 j y:
+郁 j ʊ k
+郊 k a:u
+郎 l ɔ: ŋ
+郝 kʰ ɔ: k
+郝 k ɔ: k
+部 p ou
+郭 kʷ ɔ: k
+郵 j ɐu
+都 t ou
+鄂 ŋ ɔ: k
+鄉 h œ: ŋ
+鄙 pʰ ei
+鄧 t ɐ ŋ
+鄭 ts ɛ: ŋ
+鄭 ts ɪ ŋ
+鄰 l ɵ n
+鄱 pʰ ɔ:
+鄱 p ɔ:
+酋 tsʰ ɐu
+酋 j ɐu
+酌 ts œ: k
+配 pʰ u:i
+酒 ts ɐu
+酣 h ɐ m
+酥 s ou
+酪 l ɔ: k
+酪 l ou
+酬 tsʰ ɐu
+酮 tʰ ʊ ŋ
+酱 k œ: ŋ
+酷 h ʊ k
+酸 s y: n
+醃 j i: m
+醃 j i: p
+醇 s ɵ n
+醉 ts ɵy
+醋 tsʰ ou
+醒 s ɪ ŋ
+醒 s ɛ: ŋ
+醙 s ɐu
+醜 tsʰ ɐu
+醫 j i:
+醬 ts œ: ŋ
+醺 f ɐ n
+釀 j œ: ŋ
+釁 j ɐ n
+采 tsʰ ɔ:i
+釋 s ɪ k
+里 l ei
+重 tsʰ ʊ ŋ
+重 ts ʊ ŋ
+野 j ɛ:
+量 l œ: ŋ
+金 k ɐ m
+釗 tsʰ i:u
+釘 t ɛ: ŋ
+釘 t ɪ ŋ
+釜 f u:
+針 ts ɐ m
+釣 t i:u
+釵 tsʰ a:i
+釵 tsʰ a:
+鈍 t ɵ n
+鈎 k ɐu
+鈎 ŋ ɐu
+鈔 tsʰ a:u
+鈕 n ɐu
+鈕 l ɐu
+鈞 kʷʰ ɐ n
+鈞 kʷ ɐ n
+鈴 l ɪ ŋ
+鈿 tʰ i: n
+鈿 t i: n
+鉗 kʰ i: m
+鉛 j y: n
+鉤 ɐu
+鉤 ŋ ɐu
+鉤 k ɐu
+鉸 k a:u
+銀 ŋ ɐ n
+銀 ɐ n
+銃 tsʰ ʊ ŋ
+銅 tʰ ʊ ŋ
+銘 m ɪ ŋ
+銬 kʰ a:u
+銳 j ɵy
+銷 s i:u
+鋁 l ɵy
+鋒 f ʊ ŋ
+鋤 tsʰ ɔ:
+鋪 pʰ ou
+鋼 k ɔ: ŋ
+錄 l ʊ k
+錐 j ɵy
+錐 ts ɵy
+錘 tsʰ ɵy
+錢 tsʰ i: n
+錢 ts i: n
+錦 k ɐ m
+錫 s ɪ k
+錫 s ɛ: k
+錯 tsʰ ou
+錯 tsʰ ɔ:
+錯 tsʰ ɔ: k
+錶 p i:u
+鍊 l i: n
+鍋 w ɔ:
+鍚 j œ: ŋ
+鍵 k i: n
+鍾 ts ʊ ŋ
+鎅 k a:i
+鎖 s ɔ:
+鎗 tsʰ œ: ŋ
+鎚 tsʰ ɵy
+鎭 ts ɐ n
+鎮 ts ɐ n
+鏈 l i: n
+鏟 tsʰ a: n
+鏡 k ɛ: ŋ
+鏢 p i:u
+鏰 pʰ a: ŋ
+鐘 ts ʊ ŋ
+鐡 tsʰ ɐi
+鐵 tʰ i: t
+鐸 t ɔ: k
+鑄 ts y:
+鑊 w ɔ: k
+鑑 k a: m
+鑣 p i:u
+鑫 j ɐ m
+鑲 s œ: ŋ
+鑼 l ɔ:
+鑽 ts y: n
+鑿 ts ɔ: k
+長 ts œ: ŋ
+長 tsʰ œ: ŋ
+門 m u: n
+閂 s a: n
+閃 s i: m
+閉 p ɐi
+開 h ɔ:i
+閏 j ɵ n
+閑 h a: n
+閒 k a: n
+閒 h a: n
+間 k a: n
+閘 ts a: p
+閣 k ɔ: k
+閨 kʷ ɐi
+閩 m ɐ n
+閪 h ɐi
+閱 j y: t
+閻 j i: m
+闆 p a: n
+闊 f u: t
+闌 l a: n
+闔 h ɐ p
+闕 kʰ y: t
+闖 tsʰ ɔ: ŋ
+關 kʷ a: n
+闢 pʰ ɪ k
+阅 j y:
+阜 f ɐu
+阪 f a: n
+阪 p a: n
+阱 ts ɪ ŋ
+防 f ɔ: ŋ
+阻 ts ɔ:
+阿 ɔ:
+阿 a:
+阿 a: k
+陀 tʰ ɔ:
+陂 p ei
+陂 pʰ ɔ:
+陂 pʰ ei
+附 f u:
+陋 l ɐu
+陌 m ɐ k
+降 h ɔ: ŋ
+降 k ɔ: ŋ
+限 h a: n
+陛 p ɐi
+陝 s i: m
+陞 s ɪ ŋ
+院 j y: n
+陣 ts ɐ n
+除 tsʰ ɵy
+除 tsʰ y:
+陪 pʰ u:i
+陰 j ɐ m
+陳 tsʰ ɐ n
+陳 ts ɐ n
+陵 l ɪ ŋ
+陶 tʰ ou
+陶 j i:u
+陷 h a: m
+陷 h ɐ m
+陸 l ʊ k
+陽 j œ: ŋ
+隅 j y:
+隆 l ʊ ŋ
+隊 t ɵy
+階 k a:i
+隔 k a: k
+隕 w ɐ n
+隕 j y: n
+隙 kʷ ɪ k
+際 ts ɐi
+障 ts œ: ŋ
+隧 s ɵy
+隨 tsʰ ɵy
+險 h i: m
+隱 j ɐ n
+隴 l ʊ ŋ
+隸 t ɐi
+隸 l ɐi
+隻 ts ɛ: k
+雀 ts œ: k
+雁 ŋ a: n
+雄 h ʊ ŋ
+雅 ŋ a:
+雅 a:
+集 ts a: p
+雋 ts ɵ n
+雋 s y: n
+雌 tsʰ i:
+雍 j ʊ ŋ
+雕 t i:u
+雖 s ɵy
+雙 s œ: ŋ
+雛 tsʰ ɔ:
+雜 ts a: p
+雞 k ɐi
+離 l ei
+難 n a: n
+雨 j y:
+雪 s y: t
+雲 w ɐ n
+零 l ɪ ŋ
+雷 l ɵy
+電 t i: n
+需 s ɵy
+霄 s i:u
+霆 tʰ ɪ ŋ
+震 ts ɐ n
+霉 m u:i
+霍 f ɔ: k
+霎 s ɐ p
+霎 s a: p
+霓 ŋ ɐi
+霖 l ɐ m
+霜 s œ: ŋ
+霧 m ou
+露 l ɐu
+露 l ou
+霸 p a:
+霾 m a:i
+霾 l ei
+霾 m ɐi
+靈 l ɛ: ŋ
+靈 l ɪ ŋ
+青 tsʰ ɪ ŋ
+青 tsʰ ɛ: ŋ
+靖 ts ɪ ŋ
+靚 ts ɪ ŋ
+靚 l ɛ: ŋ
+靜 ts ɪ ŋ
+非 f ei
+靠 kʰ a:u
+靡 m ei
+面 m i: n
+革 k ɪ k
+革 k a: k
+革 k a: p
+靴 h ɛ:u
+靶 p a:
+鞋 h a:i
+鞍 ɔ: n
+鞠 k ʊ k
+鞦 tsʰ ɐu
+鞭 p i: n
+韆 tsʰ i: n
+韌 ŋ ɐ n
+韌 j ɐ n
+韌 ɐ n
+韓 h ɔ: n
+韞 w ɐ n
+韭 k ɐu
+韮 k ɐu
+音 j ɐ m
+韻 w ɐ n
+響 h œ: ŋ
+頁 j i: p
+頂 t ɪ ŋ
+頂 t ɛ: ŋ
+項 h ɔ: ŋ
+順 s ɵ n
+須 s ɵy
+頌 ts ʊ ŋ
+預 j y:
+頑 w a: n
+頒 pʰ a: n
+頒 p a: n
+頓 t ɵ n
+頓 t ʊ k
+頗 pʰ ɔ:
+領 l ɪ ŋ
+領 l ɛ: ŋ
+頡 k i: t
+頡 kʰ i: t
+頤 j i:
+頭 tʰ ɐu
+頷 h ɐ m
+頸 k ɛ: ŋ
+頹 tʰ ɵy
+頻 pʰ ɐ n
+顆 f ɔ:
+題 tʰ ɐi
+額 ŋ a: k
+顎 ŋ ɔ: k
+顏 ŋ a: n
+顔 ŋ a:u
+願 j y: n
+顛 t i: n
+類 l ɵy
+顧 k u:
+顯 h i: n
+顱 l ou
+题 tʰ ɐi
+風 f ʊ ŋ
+颱 tʰ ɔ:i
+飄 pʰ i:u
+飆 p i:u
+飛 f ei
+食 s ɪ k
+食 j i:
+食 ts i:
+飢 k ei
+飩 tʰ ɐ n
+飯 f a: n
+飲 j ɐ m
+飼 ts i:
+飽 p a:u
+飾 s ɪ k
+餃 k a:u
+餅 p ɪ ŋ
+餅 p ɛ: ŋ
+餉 h œ: ŋ
+養 j œ: ŋ
+餋 tsʰ ɔ: ŋ
+餐 tsʰ a: n
+餒 n ɔ:i
+餒 n ɵy
+餓 ŋ ɔ:
+餘 j y:
+餛 w ɐ n
+餡 h a: m
+館 k u: n
+餮 tʰ i: t
+餵 w ɐi
+餸 s ʊ ŋ
+餼 h ei
+餾 l ɐu
+饅 m a: n
+饋 kʷ ɐi
+饌 ts a: n
+饑 k ei
+饒 j i:u
+饕 tʰ ou
+首 s ɐu
+香 h œ: ŋ
+馨 h ɪ ŋ
+馩 f ɐ n
+馬 m a:
+馭 j y:
+馮 pʰ ɐ ŋ
+馮 f ʊ ŋ
+馳 tsʰ i:
+駁 p ɔ: k
+駐 ts y:
+駒 kʰ ɵy
+駕 k a:
+駛 s ɐi
+駝 tʰ ɔ:
+駟 s i:
+駱 l ɔ: k
+駿 ts ɵ n
+騁 tsʰ ɪ ŋ
+騁 pʰ ɪ ŋ
+騅 ts ɵy
+騎 kʰ ɛ:
+騎 kʰ ei
+騎 k ei
+騙 pʰ i: n
+騭 ts ɐ t
+騮 l ɐu
+騰 tʰ ɐ n
+騰 tʰ ɐ ŋ
+騷 s ou
+騾 l ɵy
+騾 l ɔ:
+驀 m ɐ k
+驅 kʰ ɵy
+驕 k i:u
+驗 j i: m
+驚 k ɛ: ŋ
+驚 k ɪ ŋ
+驟 ts a:u
+驟 ts ɐu
+驥 kʰ ei
+驪 l ei
+马 m a:
+骨 kʷ ɐ t
+骯 h ɔ: ŋ
+骯 ŋ ɔ: ŋ
+骯 ɔ: ŋ
+骰 s ɪ k
+骰 tʰ ɐu
+骲 p a:u
+骲 p i:u
+骸 h a:i
+骸 h ɔ:i
+骹 h a:u
+骹 k a:u
+髀 p ei
+髒 ts ɔ: ŋ
+髓 s ɵy
+體 tʰ ɐi
+高 k ou
+髧 j i: m
+髧 t a: m
+髧 t ɐ m
+髮 f a: t
+髻 k ɐi
+鬆 s ʊ ŋ
+鬚 s ou
+鬠 ts ɐ ŋ
+鬠 kʰ u: t
+鬢 p ɐ n
+鬥 t ɐu
+鬧 n a:u
+鬧 l a:u
+鬱 w ɐ t
+鬼 kʷ ɐi
+魁 f u:i
+魂 w ɐ n
+魄 tʰ ɔ: k
+魄 pʰ a: k
+魄 p ɔ: k
+魅 m ei
+魅 m u:i
+魏 ŋ ɐi
+魔 m ɔ:
+魚 j y:
+魯 l ou
+魷 j ɐu
+鮑 p a:u
+鮟 j ɐ n
+鮫 k a:u
+鮭 kʷ ɐi
+鮮 s i: n
+鯇 w a: n
+鯉 l ei
+鯊 s a:
+鯖 tsʰ ɪ ŋ
+鯛 t i:u
+鯡 f ei
+鯪 l ɛ: ŋ
+鯪 l ɪ ŋ
+鰂 ts ɐ k
+鰭 kʰ ei
+鰲 ŋ ou
+鰻 m a: n
+鱇 k ɐ ŋ
+鱈 s y: t
+鱔 s i: n
+鱗 l ɵ n
+鱲 l a: p
+鱲 l i: p
+鱷 ŋ ɔ: k
+鱸 l ou
+鲁 l ou
+鳥 n i:u
+鳩 k ɐu
+鳩 kʰ ɐu
+鳳 f ʊ ŋ
+鳴 m ɪ ŋ
+鳶 j y: n
+鴉 ŋ a:
+鴉 a:
+鴛 j y: n
+鴛 j i: n
+鴦 j œ: ŋ
+鴨 a: p
+鴨 ŋ a: p
+鴻 h ʊ ŋ
+鴿 k ɐ p
+鴿 k a: p
+鵝 ŋ ɔ:
+鵡 m ou
+鵪 ɐ m
+鵬 pʰ a: ŋ
+鵲 ts œ: k
+鵲 tsʰ œ: k
+鶉 s ɵ n
+鶴 h ɔ: k
+鷄 k ɐi
+鷯 l i:u
+鷹 j ɪ ŋ
+鸚 j ɪ ŋ
+鸝 l ei
+鸞 l y: n
+鹅 ŋ ɔ:
+鹹 h a: m
+鹼 k a: n
+鹽 j i: m
+鹿 l ʊ k
+麒 kʰ ei
+麗 l ɐi
+麝 s ɛ:
+麟 l ɵ n
+麥 m ɐ k
+麥 m a: k
+麪 m i: n
+麵 m i: n
+麻 m a:
+麼 m ɔ:
+麼 m a:
+黃 w ɔ: ŋ
+黎 l ɐi
+黏 n i: m
+黏 ts i: m
+黐 tsʰ i:
+黑 h a: k
+黑 h ɐ k
+默 m ɐ k
+黚 kʰ i: m
+黛 t ɔ:i
+黜 ts ɵ t
+黜 ts y: t
+黜 tsʰ ɵ t
+點 t i: m
+黨 t ɔ: ŋ
+黯 ɐ m
+鼆 m ɐ n
+鼎 t ɪ ŋ
+鼓 k u:
+鼙 pʰ ei
+鼠 s y:
+鼻 p ei
+齊 ts i:
+齊 tsʰ ɐi
+齊 ts ɐi
+齋 ts a:i
+齋 ts ɐi
+齒 tsʰ i:
+齕 h ɐ t
+齡 l ɪ ŋ
+齣 tsʰ ɵ t
+齪 tsʰ ʊ k
+齮 j i:
+齷 a: k
+齷 ɐ k
+龍 l ʊ ŋ
+龐 pʰ ɔ: ŋ
+龜 kʷ ɐi
+龜 k ɐu
+龜 kʷ ɐ n
+龢 w ɔ:
