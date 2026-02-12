@@ -1,0 +1,43 @@
+﻿# PyAnnote Singer Separator 依赖
+# 安装: pip install -r requirements_pyannote.txt
+
+# === 核心依赖 ===
+pyannote.audio>=3.1.0
+pyannote.core>=5.0.0
+pyannote.database>=5.0.1
+pyannote.metrics>=3.2.1
+pyannote.pipeline>=3.0.1
+
+# === PyTorch (根据你的 CUDA 版本选择) ===
+# CPU 版本:
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# CUDA 11.8 版本 (推荐，如果你有 NVIDIA GPU):
+torch>=2.0.0
+torchaudio>=2.0.0
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+# CUDA 12.1 版本:
+torch>=2.0.0
+torchaudio>=2.0.0
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+# === GUI 和音频 ===
+PyQt6>=6.4.0
+sounddevice>=0.4.6
+soundfile>=0.12.1
+ffmpeg-python>=0.2.0
+
+# === 音频处理 ===
+librosa>=0.10.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# === 模型下载 (离线模式必需) ===
+huggingface-hub>=0.16.0
+transformers>=4.30.0
+
+# === 可选加速 ===
+onnxruntime-gpu>=1.15.0  # GPU 加速推理
+tensorrt>=8.6.0  # NVIDIA TensorRT 加速

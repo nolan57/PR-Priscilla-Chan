@@ -559,12 +559,12 @@ class HarmonyRemoverApp(QMainWindow):
         layout.addWidget(self.scroll)
         
         # Instructions
-        instr_label = QLabel(
-            "Instructions: 1) Load audio  2) Draw reference regions on waveform (clean target vocals)  "
-            "3) Adjust parameters  4) Click Process  5) Save result"
-        )
-        instr_label.setStyleSheet("color: #3498db; padding: 5px;")
-        layout.addWidget(instr_label)
+       # instr_label = QLabel(
+       #     "Instructions: 1) Load audio  2) Draw reference regions on waveform (clean target vocals)  "
+       #     "3) Adjust parameters  4) Click Process  5) Save result"
+       # )
+       # instr_label.setStyleSheet("color: #3498db; padding: 5px;")
+       # layout.addWidget(instr_label)
         
         # Status bar
         self.status = QStatusBar()
