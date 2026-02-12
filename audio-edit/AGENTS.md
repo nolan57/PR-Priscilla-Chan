@@ -50,7 +50,12 @@ ruff check audio_merger.py
 ```
 
 ### Testing Commands
-This repository currently has no formal test suite. Manual testing is done by running individual applications.
+```bash
+# Run basic integration test
+python test_integration.py
+```
+
+Manual testing is primarily done by running individual applications.
 
 ## Code Style Guidelines
 
@@ -78,9 +83,6 @@ from PyQt6.QtWidgets import (
 from PyQt6.QtCore import Qt, QThread, pyqtSignal, QTimer
 from PyQt6.QtGui import QPainter, QColor
 
-# Aliases for brevity
-import numpy as np
-from PyQt6.QtCore import pyqtSignal as Signal
 ```
 
 ### Naming Conventions
@@ -90,17 +92,13 @@ from PyQt6.QtCore import pyqtSignal as Signal
 - **Constants**: UPPER_SNAKE_CASE (`SAMPLE_RATE`, `CHUNK_SIZE`, `MIN_HEIGHT`)
 - **Private members**: Use leading underscore (`_process_data`, `_update_ui`)
 
-### PyQt6 Specific Patterns
-- **Signal connections**: Use `pyqtSignal` for inter-thread communication
-- **QWidget inheritance**: Always call `super().__init__(parent)` in `__init__`
-- **Thread safety**: Use QThread for background processing, emit signals for UI updates
-- **Event handlers**: Override PyQt6 methods (`paintEvent`, `mousePressEvent`, etc.)
-
-### Error Handling
-- Use specific exception handling where possible
-- Catch `Exception` at the top level, more specific exceptions in deeper code
-- Always provide user feedback for errors (QMessageBox)
-- Log errors when appropriate, but avoid exposing technical details to users
+### PyQt6 Patterns & Error Handling
+- Use `pyqtSignal` for inter-thread communication
+- Always call `super().__init__(parent)` in widget `__init__`
+- Use QThread for background processing, emit signals for UI updates
+- Override PyQt6 methods (`paintEvent`, `mousePressEvent`, etc.)
+- Use specific exception handling, provide QMessageBox feedback
+- Catch `Exception` at top level, more specific in deeper code
 
 ```python
 try:
@@ -118,7 +116,7 @@ except Exception as e:
 - **Sample rates**: Common rates are 44100Hz and 48000Hz
 - **Data types**: Use numpy arrays, typically float32 for audio processing
 - **FFmpeg integration**: Use python-ffmpeg for audio processing
-- **Memory management**: Be careful with large audio files, process in chunks when possible
+- **Memory management**: Process audio files in chunks for large files
 
 ### File Structure Patterns
 Each application follows this structure:
@@ -134,12 +132,6 @@ Each application follows this structure:
 - Emit signals to communicate results back to main thread
 - Always include error handling in worker threads
 - Use QTimer for periodic UI updates
-
-### Code Comments and Documentation
-- Use docstrings for classes and complex methods
-- Inline comments for complex audio processing logic
-- TODO comments for future improvements
-- Include platform-specific notes in comments when relevant
 
 ### GUI Development Guidelines
 - Use QVBoxLayout/HHBoxLayout for responsive layouts
@@ -160,10 +152,16 @@ Each application follows this structure:
 - Release audio resources when done
 - Monitor memory usage with ML models (singer_cleaner.py)
 
+### Code Comments and Documentation
+- Use docstrings for classes and complex methods
+- Inline comments for complex audio processing logic
+- TODO comments for future improvements
+- Include platform-specific notes in comments when relevant
+
 ## Special Considerations
 
 ### Offline Mode (singer_cleaner.py)
-The singer_cleaner.py includes mandatory offline compatibility patches at the top of the file to force local-only operation. These patches must remain at the very top and cannot be modified or moved.
+The singer_cleaner.py includes mandatory offline compatibility patches at the very top to force local-only operation. These patches cannot be modified or moved.
 
 ### Platform Compatibility
 - macOS: AVFoundation for audio capture

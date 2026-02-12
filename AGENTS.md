@@ -289,18 +289,145 @@ Raw Data → (MFA/LyricFA) → Aligned Labels → (Binarization) → Training �
 
 ## Testing and Validation
 
-### No Formal Test Suite
-- No pytest/unittest setup in DiffSinger
-- Validation is done through:
-  - Training validation steps (configurable via `val_check_interval`)
-  - TensorBoard monitoring
-  - Inference on sample DS files
+### Single Test Commands
+```bash
+# DiffSinger (validation through training)
+python scripts/train.py --config <config.yaml> --exp_name <test> --reset --fast_dev_run
 
-### Manual Checks
-- `validate_lengths.py` - Check audio segment lengths
-- `validate_labels.py` - Verify labels against dictionary
-- `check_tg.py` - Validate TextGrid generation
-- Monitor TensorBoard for training curves and audio samples
+# Montreal Forced Aligner
+tox -e py38  # Run all tests
+python -m pytest tests/test_specific.py -v  # Run single test
+coverage run -m pytest tests/test_specific.py -v  # With coverage
+
+# crepe
+python -m pytest tests/test_sweep.py::test_sweep -v  # Single test function
+python -m pytest tests/test_sweep.py -v  # All tests in file
+
+# audio-edit (manual testing)
+python test_integration.py  # Basic integration test
+```
+
+### Lint/Format Commands
+```bash
+# Montreal Forced Aligner
+tox -e check-formatting  # Check black formatting
+tox -e format  # Apply black formatting
+tox -e lint  # Run flake8
+
+# audio-edit
+ruff check .  # Run ruff linter
+ruff check --fix .  # Auto-fix issues
+ruff check audio_merger.py  # Single file
+
+# DiffSinger (no formal linting, follow style guidelines)
+```
+
+### Validation Methods
+- **DiffSinger**: Training validation steps, TensorBoard monitoring, inference on sample DS files
+- **MFA**: Unit tests with tox, coverage reporting
+- **crepe**: pytest with sweep test patterns
+- **Manual checks**: `validate_lengths.py`, `validate_labels.py`, `check_tg.py`
+
+## Code Style Guidelines
+
+### Python Import Organization
+1. **Standard library imports first** (os, sys, pathlib, warnings)
+2. **Third-party imports next** (numpy, torch, PyQt6, yaml)
+3. **Local imports last** (project-specific modules)
+
+```python
+# Standard library
+import os
+import sys
+from pathlib import Path
+
+# Third-party
+import numpy as np
+import torch
+import torch.nn as nn
+import yaml
+from PyQt6.QtWidgets import QApplication, QMainWindow
+
+# Local imports
+from utils.config_utils import read_full_config
+```
+
+### Naming Conventions
+- **Classes**: PascalCase (`TFC`, `DenseTFC`, `AudioMergerApp`)
+- **Methods/Functions**: snake_case (`forward`, `process_audio`, `set_audio_data`)
+- **Variables**: snake_case (`audio_buffer`, `sample_rate`, `config_path`)
+- **Constants**: UPPER_SNAKE_CASE (`SAMPLE_RATE`, `CHUNK_SIZE`)
+- **Private members**: Leading underscore (`_process_data`, `_update_ui`)
+
+### PyTorch/Deep Learning Patterns
+- Extend `nn.Module` for neural network components
+- Use `super().__init__()` in all module constructors
+- Implement `forward()` method for all neural modules
+- Use `nn.ModuleList` for dynamic layer lists
+
+```python
+class TFC(nn.Module):
+    def __init__(self, c, l, k, norm):
+        super(TFC, self).__init__()
+        self.H = nn.ModuleList()
+        for i in range(l):
+            self.H.append(
+                nn.Sequential(
+                    nn.Conv2d(in_channels=c, out_channels=c, kernel_size=k, stride=1, padding=k // 2),
+                    norm(c),
+                    nn.ReLU(),
+                )
+            )
+    
+    def forward(self, x):
+        for h in self.H:
+            x = h(x)
+        return x
+```
+
+### Error Handling
+- Use specific exception types when possible
+- Return error information as tuples: `(False, error_message)`
+- Provide user-friendly error messages in GUI applications
+- Use try-except blocks for file operations and model loading
+
+### Configuration Management
+- YAML-based configuration with inheritance
+- Use `base_config` for cascading configurations
+- Snake_case for config keys: `audio_sample_rate`, `data_input_path`
+- Validate configurations before use
+
+### Audio Processing Guidelines
+- **Sample rates**: Common rates are 44100Hz and 48000Hz
+- **Data types**: Use numpy arrays, typically float32
+- **Memory management**: Process large files in chunks
+- **Format support**: Support .wav and .flac when possible
+
+### Code Formatting Standards
+- **Python**: Black with line-length 99 (MFA standard), flake8 for linting
+- **YAML**: 2-space indentation for configurations
+- **Comments**: Use docstrings for classes and complex methods
+- **Type hints**: Use when beneficial, especially in function signatures
+
+### File Organization Patterns
+- **Configs**: `configs/` directory with YAML files
+- **Models**: `models/[model_name]/` with implementation
+- **Modules**: `modules/[module_type]/` for reusable components
+- **Tests**: `tests/` directory with test files
+- **Utils**: `utils/` directory for helper functions
+
+### GUI Development Guidelines
+- Use QThread for background processing in PyQt6
+- Emit signals for inter-thread communication
+- Use QTimer for periodic UI updates
+- Handle window closing gracefully
+- Provide status updates during long operations
+
+### Documentation Standards
+- Use docstrings for all classes and public methods
+- Include parameter types and return values
+- Add inline comments for complex algorithms
+- Document configuration parameters in YAML files
 
 ## Troubleshooting Common Issues
 
@@ -321,6 +448,11 @@ Raw Data → (MFA/LyricFA) → Aligned Labels → (Binarization) → Training �
 - Set `pl_trainer_devices: auto` or specific GPU IDs
 - Use `pl_trainer_strategy.name: ddp` for distributed training
 - Launch TensorBoard with `--reload_multifile=true`
+
+### Testing Issues
+- **MFA**: Use `tox -e py38` for full test suite, `coverage run -m pytest` for single tests
+- **crepe**: Ensure test audio files exist in `tests/` directory
+- **DiffSinger**: Use `--fast_dev_run` flag for quick validation during development
 
 ## Key Reference Documents
 
