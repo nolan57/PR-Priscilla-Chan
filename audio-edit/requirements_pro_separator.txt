@@ -1,6 +1,6 @@
 # Professional Singer Voice Separator Requirements
 
-# Core dependencies (same as singer_cleaner.py)
+# Core dependencies
 PyQt6>=6.4.0
 numpy>=1.21.0
 scipy>=1.7.0
@@ -9,38 +9,50 @@ sounddevice>=0.4.0
 librosa>=0.9.0
 julius>=0.2.0  # Required for UVR Demucs implementation
 
-# PyTorch (CPU version recommended for most users)
+# PyTorch ecosystem
 torch>=1.12.0
 torchaudio>=0.12.0
 
-# Audio processing
+# Audio processing and conversion
 ffmpeg-python>=0.2.0
 
-# Speaker recognition
+# Machine learning and AI components
 speechbrain>=0.5.0
 onnxruntime>=1.10.0
+huggingface-hub>=0.12.0  # Required for offline model loading
 
-# Optional advanced models (install if available)
+# Advanced audio separation models (optional but recommended)
 # demucs>=4.0.0  # Uncomment if you have sufficient RAM (8GB+ recommended)
 # openai-whisper>=20231106  # Uncomment for precise timestamp detection
 
-# Integration with Ultimate Vocal Remover components:
-# The application can use local Demucs implementation from ultimatevocalremovergui
-# No additional installation required if UVR is available locally
-
-# System dependencies:
+# System Requirements and UVR Integration:
 # - FFmpeg must be installed and accessible in PATH
-# - For Demucs: 8GB+ RAM recommended
-# - For Whisper: GPU recommended but CPU works (slower)
+# - 8GB+ RAM recommended for Demucs processing
+# - GPU recommended for Whisper (CPU works but slower)
+# - UVR components automatically loaded from local ultimatevocalremovergui folder
+# - lib_v5 and core modules provide advanced vocal separation algorithms
 
 # Installation notes:
 # 1. Install system FFmpeg first
 # 2. pip install -r requirements_pro_separator.txt
 # 3. For Demucs support: pip install demucs
 # 4. For Whisper support: pip install openai-whisper
+# 5. Ensure ultimatevocalremovergui folder is present for UVR integration
+#
+# Key Features and Dependencies:
+# - PyQt6: Main GUI framework
+# - Librosa: Audio analysis and feature extraction
+# - Torch/Torchaudio: Deep learning backend
+# - SpeechBrain: Speaker recognition capabilities
+# - ONNX Runtime: Model inference optimization
+# - HuggingFace Hub: Offline model management
+# - UVR Integration: Local vocal separation algorithms
+# - Demucs: Music source separation (optional)
+# - Whisper: Speech transcription and timing (optional)
 #
 # Integration benefits:
 # - Uses proven Demucs implementation from UVR project
 # - Leverages advanced spectral processing utilities
 # - Benefits from UVR's extensive testing and optimization
 # - Maintains compatibility with existing UVR workflows
+# - Provides fallback mechanisms for all critical components
