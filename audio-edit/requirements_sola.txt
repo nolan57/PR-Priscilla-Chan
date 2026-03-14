@@ -1,0 +1,40 @@
+# Professional Singer Separator - Enhanced Version (FFmpeg)
+# Requirements
+
+# Core dependencies
+torch>=2.0.0
+torchaudio>=2.0.0
+librosa>=0.10.0
+soundfile>=0.12.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+scipy>=1.11.0
+
+# GUI (PyQt6 core only - no multimedia needed!)
+PyQt6>=6.5.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Pyannote.audio dependencies (optional, for best quality)
+omegaconf>=2.1.0
+pytorch-lightning>=2.0.0
+asteroid-filterbanks>=0.4.0
+pyannote.core>=5.0.0
+pyannote.database>=5.0.0
+pyannote.metrics>=3.2.0
+einops>=0.6.0
+speechbrain>=0.5.0
+huggingface-hub>=0.19.0
+
+# State-of-the-art speaker recognition
+pyannote.audio>=3.1.0
+
+# Fallback speaker recognition (lightweight, always works)
+resemblyzer>=0.1.0
+
+# Note: Audio playback uses FFmpeg (not Python package)
+# Install FFmpeg separately:
+#   Linux:   sudo apt install ffmpeg
+#   macOS:   brew install ffmpeg  
+#   Windows: Download from https://ffmpeg.org/download.html

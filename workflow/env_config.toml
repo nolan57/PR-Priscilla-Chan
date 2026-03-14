@@ -1,0 +1,27 @@
+# Environment Configuration
+# Maps pipeline components to conda environments
+
+[environments]
+vocoder = "vocoder"       # SingingVocoders preprocessing & training
+diffsinger = "diffsinger" # DiffSinger preprocessing & training
+sola = "sola"             # Audio cleaning tools (SOLA-based)
+mfa = "mfa"               # Montreal Forced Aligner
+uvr = "uvr"               # UVR5 vocal separation
+
+[paths]
+# Root directory for PCS project
+pcs_root = "/Users/lpcw/Documents/PCS"
+
+[workflows.vocoder]
+# Vocoder training data prep workflow
+separation = "uvr"     # UVR5 separation
+cleaning = "sola"      # Audio cleaning
+preprocess = "vocoder" # npz building
+
+[workflows.diffsinger]
+# DiffSinger training data prep workflow
+separation = "uvr"           # UVR5 separation
+cleaning = "sola"            # Audio cleaning
+f0_extraction = "diffsinger" # F0 extraction
+mfa_alignment = "mfa"        # Montreal Forced Aligner
+npz_build = "diffsinger"     # NPZ building

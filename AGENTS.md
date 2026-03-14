@@ -1,6 +1,6 @@
 # AGENTS.md
 
-This file provides guidance to WARP (warp.dev) when working with code in this repository.
+This file provides guidance for AI coding agents when working with code in this repository.
 
 ## Repository Overview
 
@@ -21,30 +21,47 @@ This is a collection of AI/ML projects focused on **singing voice synthesis**, s
   - `configs/` - Configuration templates and examples
   - `basics/` - Base classes for datasets, tasks, and modules
 
-### Dataset Creation: MakeDiffSinger
-- **Location**: `MakeDiffSinger/`
-- **Purpose**: Pipelines for building DiffSinger datasets from raw recordings
-- **Key Subdirectories**:
-  - `acoustic-forced-alignment/` - Create datasets from scratch using MFA (Montreal Forced Aligner)
-  - `variance-temp-solution/` - Extend acoustic datasets to variance datasets
+### Vocoder Training: SingingVocoders
+- **Location**: `SingingVocoders/`
+- **Purpose**: Neural vocoder training for singing voice synthesis
+- **Supported Models**: NSF-HiFiGAN, UnivNet, DDSP-GAN, LVC-DDSP-GAN, DDSP-UnivNet
+- **Key Files**:
+  - `train.py` - Main training entry point
+  - `process.py` - Audio preprocessing
+  - `export_ckpt.py` - Checkpoint export utility
+  - `configs/` - Model-specific configuration files
 
-### Dataset Processing: dataset-tools
-- **Location**: `dataset-tools/`
-- **Purpose**: GUI tools for audio processing and labeling
-- **Language**: C++ with Qt 6.8+, CMake build system
+### Audio Processing Pipeline: pipeline
+- **Location**: `pipeline/`
+- **Purpose**: Batch processing utilities for dataset preparation
+- **Key Scripts**:
+  - `separate_vocals.py` / `separate_vocals_all.py` - Batch vocal separation using UVR
+  - `build_npzs.py` / `build_npzs_batch.py` - Build NPZ files for vocoder training
+  - `extract_perfect_f0.py` / `extract_perfect_f0_batch.py` - F0 extraction
+  - `align_lyrics.py` - Lyric alignment
+  - `dsf_to_wav_converter.py` - Convert DSF to WAV format
+
+### Audio Editing Tools: audio-edit
+- **Location**: `audio-edit/`
+- **Purpose**: PyQt6 GUI applications for audio processing
 - **Applications**:
-  - **MinLabel**: Label `.lab` files with word transcriptions
-  - **SlurCutter**: Edit MIDI sequences in `.ds` files
-  - **AudioSlicer**: Segment audio into short clips
+  - **audio_merger.py** - Merge multiple audio files with waveform visualization
+  - **audio_muter.py** - Remove background noise from audio files
+  - **audio_trimmer.py** - Trim and edit audio segments
+  - **singer_cleaner.py** - Voice activity detection and speaker separation
+  - **pro_singer_separator.py** - Professional singer voice isolation (Demucs + SpeechBrain)
+  - **pyannote_singer_separator.py** - Target speaker extraction using PyAnnote.Audio
+  - **harmony_remover.py** - Harmony/vocal background removal
+  - **t-w.py** - Real-time audio visualization with FFmpeg
 
 ### Alignment Tools
 - **Montreal-Forced-Aligner** (`Montreal-Forced-Aligner/`): Command-line utility for forced alignment using Kaldi
-- **LyricFA** (`LyricFA/`): Automatic lyric forced alignment using ASR
+- **crepe** (`crepe/`): Pitch estimation library
 
 ### Supporting Components
-- **HKCantonese_models/**: Pre-trained acoustic models for Hong Kong Cantonese
-- **ultimatevocalremovergui/**: Vocal removal GUI using MDX-Net and Demucs
-- **pc_nsf_hifigan_44.1k_hop512_128bin_2025.02/**: Neural vocoder for waveform reconstruction
+- **HKCantonese_models/**: Pre-trained acoustic models and lexicons for Hong Kong Cantonese
+- **ultimatevocalremovergui/**: Vocal removal system using MDX-Net and Demucs (used by pipeline scripts)
+- **whisper-small/**: Whisper ASR model for transcription
 
 ## Common Development Commands
 
@@ -81,7 +98,6 @@ python scripts/infer.py variance <song.ds> --exp <experiment_name>
 python scripts/infer.py acoustic <song.ds> --exp <experiment_name>
 ```
 - Requires `.ds` files (JSON format with phoneme sequences, durations, and scores)
-- See `samples/` for example DS files
 
 #### Export to ONNX (Deployment)
 ```bash
@@ -97,35 +113,106 @@ python scripts/drop_spk.py  # Remove speaker embeddings from checkpoints
 python scripts/vocode.py    # Run vocoder on mel-spectrograms
 ```
 
-### Dataset Creation (MakeDiffSinger)
+### SingingVocoders (Vocoder Training)
 
-#### Forced Alignment Pipeline
+#### Setup
 ```bash
-cd MakeDiffSinger/acoustic-forced-alignment
+cd SingingVocoders
+# Recommended: Create conda environment from vocoder.yaml
+conda env create -f vocoder.yaml -n vocoder
+conda activate vocoder
+```
 
-# 1. Validate segment lengths
-python validate_lengths.py --dir <path/to/segments>
+#### Preprocessing
+```bash
+python process.py --config configs/<config_file>.yaml --num_cpu <num_cores> --strx 1
+```
 
-# 2. Validate labels against dictionary
-python validate_labels.py --dir <path/to/segments> --dictionary <path/to/dict.txt>
+#### Training
+```bash
+# Basic training
+python train.py --config configs/<config_file>.yaml --exp_name <experiment_name>
 
-# 3. Reformat WAVs for MFA (16kHz 16bit PCM)
-python reformat_wavs.py --src <path/to/segments> --dst <tmp/dir>
+# With custom work directory
+python train.py --config configs/base_hifi_gpu.yaml --exp_name my_vocoder_exp --work_dir ./my_experiments
 
-# 4. Run Montreal Forced Aligner
-mfa align <segments/> <dictionary.txt> <model.zip> <textgrids/> --beam 100 --clean --overwrite
+# RTX 5090 optimized (32GB VRAM)
+python train.py --config configs/base_hifi_rtx5090_optimized.yaml --exp_name rtx5090_exp
+```
 
-# 5. Check TextGrid generation
-python check_tg.py --wavs <path/to/segments> --tg <path/to/textgrids>
+#### Export Checkpoint
+```bash
+python export_ckpt.py --ckpt_path <path_to_ckpt> --save_path <output_path>
+```
 
-# 6. Enhance TextGrids (detect AP/SP)
-python enhance_tg.py --wavs <segments/> --dictionary <dict.txt> --src <raw_tg/> --dst <final_tg/>
+#### Monitoring
+```bash
+tensorboard --logdir experiments/<exp_name>/lightning_logs/
+```
 
-# 7. Build final dataset
-python build_dataset.py --wavs <segments/> --tg <final_tg/> --dataset <output/dataset/>
+### Audio Processing Pipeline
 
-# 8. Select validation set
-python select_test_set.py <config.yaml>
+#### Vocal Separation (UVR Integration)
+```bash
+cd pipeline
+
+# Single folder
+python separate_vocals.py --input <input_dir> --output <output_dir> --model <model_name>
+
+# Batch processing (all subfolders)
+python separate_vocals_all.py --input <input_dir> --output <output_dir> --model <model_name> --workers 2
+
+# Dual output (vocals + instrumentals)
+python separate_vocals_all_dual.py --input <input_dir> --output <output_dir> --model <model_name>
+```
+
+#### DSF to WAV Conversion
+```bash
+python dsf_to_wav_converter.py -i <input_dir> -o <output_dir> --sample-rate 44100
+```
+
+#### F0 Extraction
+```bash
+python extract_perfect_f0.py --input <input_file> --output <output_file>
+python extract_perfect_f0_batch.py --input <input_dir> --output <output_dir>
+```
+
+#### Build NPZs for Vocoder Training
+```bash
+python build_npzs.py --config <config.yaml>
+python build_npzs_batch.py --config <config.yaml>
+```
+
+### audio-edit Applications
+
+#### Running Applications
+```bash
+cd audio-edit
+
+# Individual applications
+python audio_merger.py      # Audio merger
+python audio_muter.py       # Noise removal
+python audio_trimmer.py     # Audio trimming
+python singer_cleaner.py    # Voice activity detection & speaker separation
+python pro_singer_separator.py  # Professional singer isolation (Demucs + SpeechBrain)
+python pyannote_singer_separator.py  # Target speaker extraction
+python harmony_remover.py   # Harmony removal
+python t-w.py               # Real-time waveform visualization
+```
+
+#### Dependencies Installation
+```bash
+# Core dependencies
+pip install PyQt6 pyqtgraph numpy ffmpeg-python soundfile sounddevice
+
+# For singer_cleaner.py
+pip install torch torchaudio silero-vad speechbrain huggingface_hub onnxruntime
+
+# For pro_singer_separator.py
+pip install -r requirements_pro_separator.txt
+
+# For pyannote_singer_separator.py
+pip install -r requirements_pyannote.txt
 ```
 
 ### Montreal Forced Aligner
@@ -139,56 +226,6 @@ mfa align <corpus_dir> <dictionary> <acoustic_model> <output_dir>
 
 # Check version
 mfa version
-```
-
-### LyricFA (Automatic Lyric Alignment)
-
-```bash
-cd LyricFA
-pip install -r requirements.txt
-
-# Run ASR to get lab results
-python fun_asr.py --language zh/en --wav_folder <wav_folder> --lab_folder <lab_folder>
-
-# Match lyrics and generate JSON for MinLabel
-python match_lyric.py --lyric_folder <lyric> --lab_folder <lab> --json_folder <json> --language zh/en
-```
-
-### dataset-tools (C++ GUI Applications)
-
-#### Build from Source
-```bash
-cd dataset-tools
-
-# Setup ONNX Runtime
-cd src/libs
-cmake -Dep=dml -P ../../scripts/setup-onnxruntime.cmake  # Windows
-cmake -Dep=cpu -P ../../scripts/setup-onnxruntime.cmake  # Unix
-
-# Setup vcpkg (Windows)
-cd ../../
-set QT_DIR=<qt_install_dir>
-git clone https://github.com/microsoft/vcpkg.git
-cd vcpkg
-bootstrap-vcpkg.bat
-vcpkg install --x-manifest-root=../scripts/vcpkg-manifest --x-install-root=./installed --triplet=x64-windows
-
-# Setup vcpkg (Unix)
-export QT_DIR=<qt_install_dir>
-git clone https://github.com/microsoft/vcpkg.git
-cd vcpkg
-./bootstrap-vcpkg.sh
-./vcpkg install --x-manifest-root=../scripts/vcpkg-manifest --x-install-root=./installed --triplet=<x64-osx|arm64-osx|x64-linux|arm64-linux>
-
-# Build
-cmake -B build -G Ninja \
-    -DCMAKE_INSTALL_PREFIX=<install_dir> \
-    -DCMAKE_PREFIX_PATH=<qt_dir> \
-    -DCMAKE_TOOLCHAIN_FILE=vcpkg/scripts/buildsystems/vcpkg.cmake \
-    -DCMAKE_BUILD_TYPE=Release
-
-cmake --build build --target all
-cmake --build build --target install
 ```
 
 ## Configuration System (DiffSinger)
@@ -218,7 +255,31 @@ base_config:
 
 4. **Multiprocessing**: Set `binarization_args.num_workers` and `ds_workers` based on CPU cores
 
-5. **Check schemas**: See `docs/ConfigurationSchemas.md` for all parameters and their customizability levels
+5. **Check schemas**: See `docs/ConfigurationSchemas.md` for all parameters
+
+## SingingVocoders Configuration
+
+### Configuration Selection Guide
+- **RTX 5090 (32GB VRAM)**: Use `configs/base_hifi_rtx5090_optimized.yaml`
+- **High-end GPU**: Use `configs/base_hifi_gpu.yaml`
+- **CPU Training**: Use `configs/base_hifi_cpu.yaml`
+
+### Key Parameters
+
+| Parameter | Description | Recommendation |
+|-----------|-------------|----------------|
+| `batch_size` | Samples per batch | 32 for RTX 5090 |
+| `crop_mel_frames` | Time frames per sample | Affects memory |
+| `upsample_initial_channel` | Model channel count | Affects model size |
+| `pl_trainer_precision` | Training precision | `16-mixed` (fast) or `32-true` (stable) |
+| `ds_workers` | Data loading workers | Based on CPU cores |
+| `optimizer_cls` | Optimizer type | Muon for faster training |
+
+### RTX 5090 Performance Reference
+- Per-step training time: ~0.3-0.5 seconds
+- Memory usage: ~25-28GB
+- GPU utilization: ~85-95%
+- Full training time: 24-48 hours
 
 ## Dataset Structure
 
@@ -246,10 +307,10 @@ dataset_name/
 
 ## Architecture Insights
 
-### Two-Model System
+### DiffSinger Two-Model System
 1. **Variance Model** (optional): Predicts phoneme durations and pitch curves from high-level music info (MIDI, notes)
 2. **Acoustic Model** (required): Generates mel-spectrograms from low-level features (phoneme sequence, durations, F0)
-3. **Vocoder**: Converts mel-spectrograms to waveforms (NSF-HiFiGAN or PC-DDSP)
+3. **Vocoder**: Converts mel-spectrograms to waveforms (NSF-HiFiGAN, UnivNet, or DDSP-based)
 
 ### Training Pipeline
 Raw Data → (MFA/LyricFA) → Aligned Labels → (Binarization) → Training → (Export) → ONNX Models
@@ -263,6 +324,17 @@ Raw Data → (MFA/LyricFA) → Aligned Labels → (Binarization) → Training �
 - Enabled by default: `use_shallow_diffusion: true`
 - Uses auxiliary decoder to reduce diffusion steps
 - Parameters: `T_start`, `K_step` control the diffusion depth
+
+### Singer Separator Architecture
+```
+Audio Input → Demucs Separation → Clean Vocals
+                ↓
+Reference Clips → Speaker Embeddings → Target Profile
+                ↓
+Clean Vocals → Adaptive Frame Analysis → Speaker Matching
+                ↓
+Matching Scores → Morphological Mask → Isolated Vocal
+```
 
 ## Important Technical Details
 
@@ -282,10 +354,16 @@ Raw Data → (MFA/LyricFA) → Aligned Labels → (Binarization) → Training �
 - Avoid `@`, `#`, `&`, `|`, `<`, `>` (potential future use)
 - ASCII preferred for compatibility
 
+### Offline Mode (Important for audio-edit apps)
+Several applications require offline operation:
+- `singer_cleaner.py`, `pro_singer_separator.py`, `pyannote_singer_separator.py` have mandatory offline patches
+- Set environment variables: `HF_HUB_OFFLINE=1`, `TRANSFORMERS_OFFLINE=1`
+- Models must be pre-downloaded to `./models/` directory
+
 ### Deployment
 - Production: Use OpenUTAU or DiffScope (under development)
 - Export models to ONNX format for deployment
-- Include co-author line in commits: `Co-Authored-By: Warp <agent@warp.dev>`
+- Include co-author line in commits: `Co-Authored-By: <agent> <agent@email>`
 
 ## Testing and Validation
 
@@ -297,35 +375,31 @@ python scripts/train.py --config <config.yaml> --exp_name <test> --reset --fast_
 # Montreal Forced Aligner
 tox -e py38  # Run all tests
 python -m pytest tests/test_specific.py -v  # Run single test
-coverage run -m pytest tests/test_specific.py -v  # With coverage
 
 # crepe
 python -m pytest tests/test_sweep.py::test_sweep -v  # Single test function
-python -m pytest tests/test_sweep.py -v  # All tests in file
 
 # audio-edit (manual testing)
-python test_integration.py  # Basic integration test
+python audio_merger.py  # Run application
 ```
 
 ### Lint/Format Commands
 ```bash
-# Montreal Forced Aligner
-tox -e check-formatting  # Check black formatting
-tox -e format  # Apply black formatting
-tox -e lint  # Run flake8
-
 # audio-edit
 ruff check .  # Run ruff linter
 ruff check --fix .  # Auto-fix issues
 ruff check audio_merger.py  # Single file
 
-# DiffSinger (no formal linting, follow style guidelines)
+# Montreal Forced Aligner
+tox -e check-formatting  # Check black formatting
+tox -e format  # Apply black formatting
+tox -e lint  # Run flake8
 ```
 
 ### Validation Methods
 - **DiffSinger**: Training validation steps, TensorBoard monitoring, inference on sample DS files
+- **SingingVocoders**: Validation during training with `val_check_interval`
 - **MFA**: Unit tests with tox, coverage reporting
-- **crepe**: pytest with sweep test patterns
 - **Manual checks**: `validate_lengths.py`, `validate_labels.py`, `check_tg.py`
 
 ## Code Style Guidelines
@@ -364,26 +438,7 @@ from utils.config_utils import read_full_config
 - Use `super().__init__()` in all module constructors
 - Implement `forward()` method for all neural modules
 - Use `nn.ModuleList` for dynamic layer lists
-
-```python
-class TFC(nn.Module):
-    def __init__(self, c, l, k, norm):
-        super(TFC, self).__init__()
-        self.H = nn.ModuleList()
-        for i in range(l):
-            self.H.append(
-                nn.Sequential(
-                    nn.Conv2d(in_channels=c, out_channels=c, kernel_size=k, stride=1, padding=k // 2),
-                    norm(c),
-                    nn.ReLU(),
-                )
-            )
-    
-    def forward(self, x):
-        for h in self.H:
-            x = h(x)
-        return x
-```
+- Extend `pl.LightningModule` for training tasks
 
 ### Error Handling
 - Use specific exception types when possible
@@ -409,25 +464,20 @@ class TFC(nn.Module):
 - **Comments**: Use docstrings for classes and complex methods
 - **Type hints**: Use when beneficial, especially in function signatures
 
-### File Organization Patterns
-- **Configs**: `configs/` directory with YAML files
-- **Models**: `models/[model_name]/` with implementation
-- **Modules**: `modules/[module_type]/` for reusable components
-- **Tests**: `tests/` directory with test files
-- **Utils**: `utils/` directory for helper functions
-
-### GUI Development Guidelines
-- Use QThread for background processing in PyQt6
-- Emit signals for inter-thread communication
+### GUI Development Guidelines (PyQt6)
+- Use `pyqtSignal` for inter-thread communication
+- Use QThread for background processing
+- Emit signals for UI updates from worker threads
 - Use QTimer for periodic UI updates
 - Handle window closing gracefully
 - Provide status updates during long operations
 
-### Documentation Standards
-- Use docstrings for all classes and public methods
-- Include parameter types and return values
-- Add inline comments for complex algorithms
-- Document configuration parameters in YAML files
+### File Organization Patterns
+- **Configs**: `configs/` directory with YAML files
+- **Models**: `models/[model_name]/` with implementation
+- **Modules**: `modules/[module_type]/` for reusable components
+- **Scripts**: `scripts/` for CLI entry points
+- **Utils**: `utils/` directory for helper functions
 
 ## Troubleshooting Common Issues
 
@@ -449,21 +499,39 @@ class TFC(nn.Module):
 - Use `pl_trainer_strategy.name: ddp` for distributed training
 - Launch TensorBoard with `--reload_multifile=true`
 
-### Testing Issues
-- **MFA**: Use `tox -e py38` for full test suite, `coverage run -m pytest` for single tests
-- **crepe**: Ensure test audio files exist in `tests/` directory
-- **DiffSinger**: Use `--fast_dev_run` flag for quick validation during development
+### SingingVocoders Memory Issues
+- Reduce `batch_size`
+- Decrease `crop_mel_frames`
+- Reduce `upsample_initial_channel`
+- Use mixed precision training (`pl_trainer_precision: 16-mixed`)
+
+### Singer Separator Issues
+- **Slow Processing**: Reduce audio length or disable Demucs
+- **Poor Separation**: Add more diverse reference segments
+- **Memory Issues**: Use smaller audio files or basic separation mode
+- **Demucs Not Available**: Install `pip install demucs` or `pip install julius`
 
 ## Key Reference Documents
 
-When working in DiffSinger:
+### DiffSinger
 - **Getting Started**: `DiffSinger/docs/GettingStarted.md`
 - **Best Practices**: `DiffSinger/docs/BestPractices.md`
 - **Configuration Reference**: `DiffSinger/docs/ConfigurationSchemas.md`
 
-When building datasets:
-- **Forced Alignment**: `MakeDiffSinger/acoustic_forced_alignment/README.md`
-- **Variance Extension**: `MakeDiffSinger/variance-temp-solution/README.md`
+### SingingVocoders
+- **Quick Start**: `SingingVocoders/TRAINING_QUICK_START.md`
+- **Fine-tuning Guide**: `SingingVocoders/FINETUNE_PARAMETER_GUIDE.md`
+- **RTX 5090 Optimization**: `SingingVocoders/RTX5090_OPTIMIZATION_GUIDE.md`
+- **Config Comparison**: `SingingVocoders/CONFIG_COMPARISON.md`
+
+### audio-edit
+- **Pro Singer Separator**: `audio-edit/PRO_SINGER_SEPARATOR_README.md`
+- **T-W FFmpeg**: `audio-edit/TW_FFMPEG_README.md`
+- **Vocoder Analysis**: `audio-edit/vocoder_audio_processing_analysis.md`
+
+### Pipeline
+- **README**: `pipeline/README.md`
+- **UVR Guide**: `pipeline/uvr_diffsinger_guide.md`
 
 ## License
 All main projects use Apache 2.0 License. Always obtain permission before training models on someone's voice.

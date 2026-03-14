@@ -1,0 +1,52 @@
+# UVR Model Configuration
+# Maps user-friendly model names to actual model file paths
+# 
+# Usage:
+#   In workflow or MCP tools, use the model alias (e.g., "MDX23C-8KFFT")
+#   The config will resolve it to the actual model file path.
+
+models:
+  # MDX-Net Models
+  MDX23C-8KFFT:
+    path: "MDX23C-8KFFT-InstVoc_HQ.ckpt"
+    model_dir: "MDX_Net_Models"
+    type: "mdx"
+    description: "High quality MDX-C model for vocal/instrumental separation"
+    
+  MDX23C-8KFFT-InstVoc_HQ:
+    path: "MDX23C-8KFFT-InstVoc_HQ.ckpt"
+    model_dir: "MDX_Net_Models"
+    type: "mdx"
+    description: "Same as MDX23C-8KFFT (alias)"
+
+  # VR Models
+  UVR5-DeEcho-Normal:
+    path: "UVR5-DeEcho-Normal.pth"
+    model_dir: "VR_Models"
+    type: "vr"
+    description: "De-echo model for removing reverb from vocals"
+    
+  UVR5-DeEcho-DeReverb:
+    path: "UVR5-DeEcho-DeReverb.pth"
+    model_dir: "VR_Models"
+    type: "vr"
+    description: "De-reverb model for vocal cleaning"
+
+  # Demucs Models
+  Demucs-v3-Hybrid:
+    path: "v3_v4_repo/hybrid_transformer.yaml"
+    model_dir: "Demucs_Models"
+    type: "demucs"
+    description: "Demucs v3 hybrid transformer model"
+    
+  Demucs-v4:
+    path: "v3_v4_repo/htdemucs.yaml"
+    model_dir: "Demucs_Models"
+    type: "demucs"
+    description: "Demucs v4 model"
+
+# Default model to use if none specified
+default_model: "MDX23C-8KFFT"
+
+# Model directory base path (relative to PCS_ROOT)
+model_base_dir: "ultimatevocalremovergui/models"

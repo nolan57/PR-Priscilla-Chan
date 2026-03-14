@@ -1,0 +1,5 @@
+# Audio Edit CLI Dependencies
+numpy
+scipy
+soundfile
+ffmpeg-python
